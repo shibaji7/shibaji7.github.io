@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://vt.superdarn.org/'>Affiliations</a>. Center for Space Science and Engineering Research, Virginia Tech, Blacksburg, VA.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot_circle.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>377 Durham Hall</p>
+    <p>1145 Perry Street</p>
+    <p>Blacksburg, VA 24060</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Dr. Shibaji Chakraborty is a `Postdoctoral Associate` at [Virginia Tech](https://www.vt.edu/) since `May 2021`, specializing in Space Weather research. With a focus on the effects and impacts of Space Weather on HF propagation using SuperDARN, he has accumulated three years of experience in the [SuperDARN Group](https://vt.superdarn.org/), working under the supervision of Dr. Joseph [Baker](https://ece.vt.edu/people/profile/baker.html) and Dr. J. Michael [Ruohoniemi](https://ece.vt.edu/people/profile/ruohoniemi.html). His research primarily revolves around the study of solar flare-driven Shortwave-Fadeout and aims to provide a probabilistic now-cast of ionospheric HF propagation conditions during solar flares. Dr. Chakraborty employs various tools and software in his research, including Python, MATLAB, Mathematica, Word, Latex, Overleaf, [pyDARN](), and SQLite.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before his tenure at Virginia Tech, Dr. Chakraborty served as an `Information Technology Analyst` at [Tata Consultancy Services Innovation Labs](https://www.tcs.com/what-we-do/research) from `September 2010 to July 2015`. During this period, he gained `4.75` years of valuable experience working on diverse projects, including the Home Energy Management System and Device Management System. His role involved handling different software development modules like API and APP gateway, automated user application deployment module, distributed task queue, and Sensor data explorer (Cloud-based). He utilized a wide range of tools and software, such as Python, Java, C, Java-Script, Lua, HTML, XML, JSON, CSS, Scala, Akka (Parallel computational Framework), Redis, and MySQL.
