@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - shibaji7
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - shibaji7/SCUBAS
+  - shibaji7/pyCHIPS
+  - shibaji7/magnetic_crochet
+  - shibaji7/model.CODE_BASE
+  - shibaji7/HSR_ULF_Wave_Analysis
