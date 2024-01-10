@@ -9,22 +9,30 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Electrical Engineering
       institution: Virginia Tech, USA
       year: 2021
       description:
-        - S
-        - Description 2.
+        - Specialzed in Electromagnetism/Space Weather
         - title: Supervisors.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - J. Michael [Ruohoniemi](https://ece.vt.edu/people/profile/ruohoniemi.html)
+            - Joseph B. H. [Baker](https://ece.vt.edu/people/profile/baker.html)
+    - title: MA in Data Analytics and Applied Statistics
+      institution: Virginia Tech, USA
+      year: 2020
+    - title: MS in Electrical Engineering
+      institution: Virginia Tech, USA
+      year: 2017
+      description: Specialzed in Electromagnetism
+    - title: B.Tech in Electrical Engineering
+      institution: West Bengal University of Technology
+      year: 2010
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Professor of Theoretical Physics
 
 - title: Experience
   type: time_table
