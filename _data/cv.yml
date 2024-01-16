@@ -61,19 +61,42 @@
     - year: 2010
       items: 
         - Won ‘Electronically Yours’ event in the category ‘Newron’, Techno India
-    
 
-- title: Academic Interests
+- title: Selected Presentations/Talks
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Solar Flare impact on IT Response
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Chakraborty, S. (Invited), Characterization of Solar Flare Effects Observed by High Frequency Radar, HAO Colloquium, 12 July, 2023, Online.
+        - Chakraborty, S., Nishitani, N., Ruohoniemi, J. M., and Baker, J. B. H., Shi, X., Kunduri, B., Solar Flare effects on High Latitude Electrodynamics, Fall AGU, Chicago, IL, 12-16 December, 2022
+        - Chakraborty, S., Nishitani, N., Qian, L., Ruohoniemi, J., Baker, J., Mclnerney, J., The Role of Flare-Driven Ionospheric Electron Density Changes on the Doppler Flash Observed by SuperDARN HF Radars, STE, Nagoya University, Japan, 27 September, 2022.
+        - Chakraborty, S., Qian, L., Ruohoniemi, J. M., Baker, J., and McInerney, J., The effects of solar flare-driven ionospheric electron density change on Doppler Flash, SuperDARN Workshop, 2021.
+        - Chakraborty, S., Baker, J. B. H., Fiori, R. A. D., Ruohoniemi, J. M., & Zawdie, K. A., Testing the role of Dispersion Relation & Collision Frequency Formulations on Estimation of Shortwave-Fadeout (SWF), URSI GASS, Rome, Italy, 2021
+        - Chakrabarty, S., Baker, J. B. H., Ruohoniemi, J. M., Bailey, S., Fiori, R. A. D., Nishitani, N., A Study of Solar Flare Effects on Mid and High Latitude Radio Wave Propagation using SuperDARN HF Radar, AGU Fall Meeting, Washington DC, 2018.
+    - title: GMD Impact on Submarine Cables
       items:
-        - Description 1.
-        - Description 2.
+        - Boteler, D., Chakraborty, S., Shi, X., Murphy, B., Hartinger, M., Wang, X., Lucas, G., and Baker, J., Modeling Geomagnetic Induction in Submarine Cable, Fall AGU, Chicago, IL, 12-16 December, 2022.
+    - title: Solar Eclipse impact on IT Response
+      items:
+        - Chakraborty, S., Qian, L., Mabie, J., Mclnerney, J. M., Mark, S., Erickson, P. J., Earle, G., Origination of Ionospheric G-condition following a Total solar eclipse, TESS, Bellevue, WA, 8-11 August, 2022.
+        - Chakrabarty, S. (Invited), Shi., X., Chisham, G., Ruohoniemi, J. M., Baker, J. B. H., Stern, K., and Thomas, E. G., Coordinated Investigation of Antarctic Total Solar Eclipse (TSE) using SuperDARN HF Radars, CEDAR Workshop, Austin, June 2022.
+    - title: Generic
+      items:
+        - Maimaiti, M., Chakrabarty, S., SuperDARN Radars in Space Science Research, CEDAR Workshop, Keystone, June 2017. (Invited)
+
+- title: Conference Papers
+  type: nested_list
+  contents:
+    - title: Space Weather/Physics
+      items: 
+        - Chakraborty, S., Baker, J. B. H., and Ruohoniemi, J. M., Probabilistic Short-wave Fadeout Detection in SuperDARN Time Series Observations, 2021 IEEE International Conference on Wireless for Space and Extreme Environments (WiSEE), 2021, pp. 43-48, doi: 10.1109/WiSEE50203.2021.9613835.
+        - Chakraborty, S., Ruohoniemi, J. M., Baker, J. B. H. and Fiori, R. and Zawdie, K. and Bailey, S. and Nishitani, N. and Drob, D. et al., Sluggishness of the Ionosphere: Characteristic time-lag in Response to Solar Flares, 2020 XXXIIIrd General Assembly and Scientific Symposium of the International Union of Radio Science, Rome, Italy, 2020, pp. 1-4, doi: 10.23919/URSIGASS49373.2020.9232206. 
+    - title: Antenna Design & Genetic Algorithms
+      items:
+        - Chakrabarty, S., U. Mukherjee, Circular Micro-strip Antenna Modelling using FDTD method and Design using Genetic Algorithms. CALCON – 2015, ID: EC20140700015.
+        - Chakrabarty, S., Mukherjee, U., Circular Micro-strip (Coax Feed) Antenna Modelling using FDTD Method and Design using Genetic Algorithms: A Comparative Study on Different Types of Design Techniques, ICCCT - 2014, IEEE Digital Xplore, doi:10.1109/ICCCT.2014.7001514.
+        - Chakrabarty, S., Mukherjee, U., Comparative Study of Micro-strip antennas designed by coaxial feed and line feed, ICCCT - 2011, IEEE Digital Xplore, doi:10.1109/ICCCT.2011.6075196.
+        - Chakrabarty, S., Mukherjee, U., Micro-strip antenna optimization using genetic algorithms, ICCCT - 2010, IEEE Digital Explore, doi:10.1109/ICCCT.2011.6075196.
 
 - title: Other Interests
   type: list
