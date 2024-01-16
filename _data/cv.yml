@@ -84,21 +84,9 @@
       items:
         - Maimaiti, M., Chakrabarty, S., SuperDARN Radars in Space Science Research, CEDAR Workshop, Keystone, June 2017. (Invited)
 
-- title: Conference Papers
-  type: nested_list
-  contents:
-    - title: Space Weather/Physics
-      items: 
-        - Chakraborty, S., Baker, J. B. H., and Ruohoniemi, J. M., Probabilistic Short-wave Fadeout Detection in SuperDARN Time Series Observations, 2021 IEEE International Conference on Wireless for Space and Extreme Environments (WiSEE), 2021, pp. 43-48, doi: 10.1109/WiSEE50203.2021.9613835.
-        - Chakraborty, S., Ruohoniemi, J. M., Baker, J. B. H. and Fiori, R. and Zawdie, K. and Bailey, S. and Nishitani, N. and Drob, D. et al., Sluggishness of the Ionosphere: Characteristic time-lag in Response to Solar Flares, 2020 XXXIIIrd General Assembly and Scientific Symposium of the International Union of Radio Science, Rome, Italy, 2020, pp. 1-4, doi: 10.23919/URSIGASS49373.2020.9232206. 
-    - title: Antenna Design & Genetic Algorithms
-      items:
-        - Chakrabarty, S., U. Mukherjee, Circular Micro-strip Antenna Modelling using FDTD method and Design using Genetic Algorithms. CALCON – 2015, ID: EC20140700015.
-        - Chakrabarty, S., Mukherjee, U., Circular Micro-strip (Coax Feed) Antenna Modelling using FDTD Method and Design using Genetic Algorithms: A Comparative Study on Different Types of Design Techniques, ICCCT - 2014, IEEE Digital Xplore, doi:10.1109/ICCCT.2014.7001514.
-        - Chakrabarty, S., Mukherjee, U., Comparative Study of Micro-strip antennas designed by coaxial feed and line feed, ICCCT - 2011, IEEE Digital Xplore, doi:10.1109/ICCCT.2011.6075196.
-        - Chakrabarty, S., Mukherjee, U., Micro-strip antenna optimization using genetic algorithms, ICCCT - 2010, IEEE Digital Explore, doi:10.1109/ICCCT.2011.6075196.
 
-- title: Other Interests
+- title: Outreach & Activities
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Participated in Summer Camp for pre-college students, such as (1) Imagination (rising 7th and 8th graders) and Pathways for Future Engineers (first generation rising 10-12th graders), as a volunteer faculty, organized by the Center for the Enhancement of Engineering Diversity (CEED) at Virginia Tech (Since 2021).
+    - Participated in Science and Collaborative talks for the freshmen as a volunteer faculty, organized by the Center for the Enhancement of Engineering Diversity (CEED) at Virginia Tech (Since 2021).
