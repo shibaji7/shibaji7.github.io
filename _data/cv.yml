@@ -39,6 +39,22 @@
       institution: Tata Consultancy Services Ltd.
       year: 2010 - 2015
 
+- title: Certifications and Skills
+  type: nested_list
+  contents:
+    - title: Certifications
+      items:
+        - Graduate Certificate in Data Analytics,	Virginia Tech (May 2019)
+    - title: Numerical Models/Framework
+      items:
+        - WACCM-X, TIE-GCM, FISM-2.
+        - D-region HF absorption model.
+        - Submarine Cable Upset By Auroral Streams (SCUBAS).
+    - title: Technical Skills
+      items:
+        - Python:
+        - MATLAB:
+
 - title: Honors and Awards
   type: time_table
   contents:
