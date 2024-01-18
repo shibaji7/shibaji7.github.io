@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Solar Eclipse
+description: Solar Eclipse impact on the Ionosphere and HF Communications
 img: assets/img/12.jpg
-importance: 1
-category: work
+importance: 3
+category: Research
 related_publications: true
 ---
 
