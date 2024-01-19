@@ -19,4 +19,3 @@ SCUBAS employs a generalized thin sheet analysis specifically designed for frequ
 
 More recently, Wang et al. (2023) demonstrated that the generalized thin sheet analysis can be effectively implemented by representing the double layer as a transmission line. This transmission line model incorporates the concept of series impedance, denoted as (Z), which takes into account the resistivity and thickness of the conductive layers. Additionally, it considers a parallel impedance, denoted as (Y), which accounts for the resistance through the resistive layers. The figure illustrates the schematic representation of the double-layer structure and its equivalent transmission line model incorporating (Z) and (Y) impedances.
 
-{% endraw %}
