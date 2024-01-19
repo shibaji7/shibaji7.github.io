@@ -2,7 +2,7 @@
 layout: page
 title: Solar Eclipse
 description: Solar Eclipse impact on the Ionosphere and HF Communications
-img: assets/img/_proj_/SolarEclipse-Front.jpg
+img: assets/img/SolarEclipse-Front.jpg
 importance: 3
 category: Research
 related_publications: true
