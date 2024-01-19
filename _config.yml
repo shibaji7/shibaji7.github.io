@@ -126,7 +126,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: shibaji22 # blog_name will be displayed in your blog page
-blog_description: A simple whiteboard for academics and learning
+blog_description: Worlds of scientific discovery
 permalink: /blog/:year/:title/
 
 # Pagination
