@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GMD Impact on the Submarine Cables
-description: Characterization of induced underwater geoelectric fields (GEFs) and potential along submarine cables during various geomagnetic disturbances (GMDs).
+description: Characterization of induced underwater GEFs during various GMDs.
 img: assets/img/GMD.png
 importance: 2
 category: Research
