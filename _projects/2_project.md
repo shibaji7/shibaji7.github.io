@@ -1,81 +1,22 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: GMD Impact on the Submarine Cables
+description: Characterization of induced underwater geoelectric fields (GEFs) and potential along submarine cables during various geomagnetic disturbances (GMDs).
+img: assets/img/GMD.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: Research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This research is focused on the characterization of induced underwater geoelectric fields (GEFs) and potential along submarine cables during various geomagnetic disturbances (GMDs). Geomagnetic disturbances, originating from diverse space weather phenomena, induce GEFs at different spatiotemporal scales within the Earth and water bodies. These GEFs, in turn, generate geomagnetically induced currents (GICs) that flow through electrical infrastructure, posing a significant risk to critical systems like submarine cables during intense space weather events. To achieve this, we utilize SCUBAS, an open-source computational model developed in Python, specifically designed to estimate induced underwater GEFs and voltage in the presence of geomagnetic perturbations recorded by ground-based magnetometers. [SCUBAS](https://scubas.readthedocs.io/en/latest/) leverages advancements in magnetotelluric (MT) studies and GIC understanding, marking a substantial advancement in analyzing and predicting the impact of space weather on submarine cable systems. This research addresses critical concerns in safeguarding submarine cable infrastructure against space weather-induced disruptions.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+SCUBAS employs a generalized thin sheet analysis specifically designed for frequencies that penetrate through both the conductive and resistive layers. This analysis allows for a comprehensive understanding of the electromagnetic behavior of this layered structure (Ranganayaki and Madden, 1980).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Thinsheet-Model.jpg" title="thinsheet model" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+More recently, Wang et al. (2023) demonstrated that the generalized thin sheet analysis can be effectively implemented by representing the double layer as a transmission line. This transmission line model incorporates the concept of series impedance, denoted as (Z), which takes into account the resistivity and thickness of the conductive layers. Additionally, it considers a parallel impedance, denoted as (Y), which accounts for the resistance through the resistive layers. The figure illustrates the schematic representation of the double-layer structure and its equivalent transmission line model incorporating (Z) and (Y) impedances.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
 {% endraw %}
