@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Solar Flare
-description: a project that redirects to another website
+description: Solar Flare impact on HF communication & the Ionosphere-Thermosphere system
 img: assets/img/SolarFlare.png
 importance: 1
 category: Research
