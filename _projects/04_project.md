@@ -9,7 +9,7 @@ category: Research
 
 This project is a part of [COSPAR ISWAT](https://www.iswat-cospar.org/iswat-cospar). The COSPAR ISWAT initiative is a global hub for collaborations addressing challenges across the field of space weather.
 
-#### CHIPS: Coronal Hole Identification using Probabilistic Scheme.
+#### [CHIPS](https://pychips.readthedocs.io/en/latest/): Coronal Hole Identification using Probabilistic Scheme.
 pyCHIPS is an open source Python-based model to identify Coronal Holes (CH) and associated boundaries in solar images. The model is used to estimate the probabilities of the Coronal Holes identified by the scheme.
 
 <div class="row">
