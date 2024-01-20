@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GMD Impact on the Submarine Cables
+title: GMD Impact on Submarine Cables
 description: Characterization of induced underwater GEFs during various GMDs.
 img: assets/img/GMD.png
 importance: 2
