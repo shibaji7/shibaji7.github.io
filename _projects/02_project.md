@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GMD Impact on Submarine Cables
+title: GMD-Induced GEF
 description: Characterization of induced underwater GEFs during various GMDs.
 img: assets/img/GMD.png
 importance: 2
@@ -13,8 +13,20 @@ SCUBAS employs a generalized thin sheet analysis specifically designed for frequ
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Thinsheet-Model.jpg" title="thinsheet model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/chipsimage01.jpg" title="CHIPS Output" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Final CHIPS output of 19.3 nm 4k '.fits' image at different stages.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/chipsimage02.jpg" title="CHIPS Output" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Different CH regions and associated probabilies for four different thresholds.
 </div>
 
 More recently, Wang et al. (2023) demonstrated that the generalized thin sheet analysis can be effectively implemented by representing the double layer as a transmission line. This transmission line model incorporates the concept of series impedance, denoted as (Z), which takes into account the resistivity and thickness of the conductive layers. Additionally, it considers a parallel impedance, denoted as (Y), which accounts for the resistance through the resistive layers. The figure illustrates the schematic representation of the double-layer structure and its equivalent transmission line model incorporating (Z) and (Y) impedances.

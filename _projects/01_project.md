@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Flare Impact on the IT System
+title: Solar Flare
 description: a project that redirects to another website
 img: assets/img/SolarFlare.png
 importance: 1
