@@ -13,7 +13,7 @@ Short-wave fadeout (SWF), a transient ionospheric response to solar flares, disr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2LayerOutput.png" title="2 Layer Model Output" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/swf_anomaly.png" title="2 Layer Model Output" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -46,4 +46,38 @@ The NEO provides a measure of change in the instantaneous energy (i.e., squared 
 where: $$\dot{e}_n$$, $$\ddot{e}_n$$, and $$neo(e_n)$$ are the first, second order time derivative, and spike score of backscatter count $$(e_n)$$ estimated using the NEO. For a spike the value of $$neo(e_n)$$ is high.
 
 #### C. Probabilistic Detection Schemes
-The algorithm applies a time window to the radar data obtained on each beam and calculates a spike score using both of the operators described in the two previous subsections. The difference between the spike score and a spike threshold is projected onto a sigmoid curve to estimate probability. The algorithm then estimates median spike probability $$\mu^{(x)}$$ across the beams, multiple beam detection probability $$\theta^{(x)}$$ , and reliability score $$\gamma^{(x)}$$ for all beams during that time window. The detection probability $$\tau^{(x)}$$ is estimated by multiplying $$\mu^{(x)}$$ and $$\theta^{(x)}$$. More details about these metrics are listed in Table II. The final output is the probability and reliability score, both of which need to be high for a successful spike detection.
+The algorithm applies a time window to the radar data obtained on each beam and calculates a spike score using both of the operators described in the two previous subsections. The difference between the spike score and a spike threshold is projected onto a sigmoid curve to estimate probability. The algorithm then estimates median spike probability $$\mu^{(x)}$$ across the beams, multiple beam detection probability $$\theta^{(x)}$$ , and reliability score $$\gamma^{(x)}$$ for all beams during that time window. The detection probability $$\tau^{(x)}$$ is estimated by multiplying $$\mu^{(x)}$$ and $$\theta^{(x)}$$. More details about these metrics are listed in Table I. The final output is the probability and reliability score, both of which need to be high for a successful spike detection.
+
+| Attempt | #1    | #2    |
+| :---:   | :---: | :---: |
+| Seconds | 301   | 283   |
+
+### Results/Analysis
+
+#### A. Event Analysis: 11 March 2015
+Following figure presents example results from the SWF detection scheme applied to BKS radar data obtained on 11 March, 2015. For this case, the algorithm used a time window ($$\Delta T$$ ) of 2 hours and spike thresholds ( $$s^{th}$$ ) of -3 and 15 for the Z-score and NEO operators, respectively. From top to bottom the panels show the number of backscatter echoes, spike scores, median probabilities $$\mu^{(x)}$$, detection probabilities $$\tau^{(x)}$$, and reliability scores.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/swf_anomaly_event.jpg" title="ionospheric sluggishness" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Results from the SWF detection scheme applied to BKS radar data obtained on 11 March, 2015: (a) number of BKS backscatter echoes, (b) spike scores, (c) median probabilities, (d) detection probabilities within 2-hour window, and (e) reliability scores. Red and blue colors represent outputs from the Z-score and NEO operators, respectively. Red and blue horizontal lines in panel (b) represent threshold scores $$s^{th}$$ for the Z-score and NEO, respectively. Horizontal black lines passing through panels (c–d) represent threshold of detection probability 0.5, while the same for panel (e) represents threshold of detection certainty 5.
+</div>
+
+
+#### B. Statistical Analysis
+Following figure shows how the solar flare - SWF spike correlation coefficient varies with (a) minimum threshold of solar flare irradiance and (b) the length of the time window. The correlation coefficients in (a) were calculated using a fixed 2-hour time window while those in (b) used a fixed lower flare intensity threshold corresponding to M2 class. All other algorithmic parameters correspond to the same values used to generate previous figures. Panel (a) shows the correlation coefficient maximizes near a minimum flare intensity threshold corresponding to X1 class (red vertical line). Below this threshold, the correlation is lower because of the weaker SWF response to M-class flares, while above the X1 threshold the correlation becomes increasingly degraded by poor statistics. Panel (b) shows the correlation coefficient steadily decreases as the length of the time window is increased, with a much sharper rate of decrease beyond an hour or so. When the time window is too long, it is difficult to identify the SWF spikes against the background of hour-to-hour diurnal variations.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/swf_anomaly_event.jpg" title="ionospheric sluggishness" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Variation of the solar flare - SWF spike correlation coefficient versus (a) solar flare irradiance, and (b) length of time window. Blue and red dots in panel (a) represent the number of flares and the correlation coefficient, respectively. The vertical red line in panel (a) corresponds to an X1-class flare. Correlation coefficients in panel (a) were calculated using a fixed time window $$\Delta T$$= 120 minutes while those in panel (b) include all flares of intensity M2 class and higher. All other algorithmic parameters are the same as described in previous figure.
+</div>
+
+### Summary & Conclusion
+The scheme utilizes statistical Z-score and nonlinear energy operator (NEO) based spike detection techniques to identify sudden reductions in the number of SuperDARN backscatter echoes produced by SWF. We found the Z-score method outperforms the NEO method, particularly for weaker M-class flares. The correlation was also found to decrease substantially when the time window for spike detection is longer than an hour or so. Future work includes: (1) creating a list of SWF events in the SuperDARN historical archive for wider scientific community use, and (2) developing a near real-time monitoring system for tracking the occurrence, extent, and intensity of ongoing SWF events for radio system operators.
