@@ -48,9 +48,12 @@ where: $$\dot{e}_n$$, $$\ddot{e}_n$$, and $$neo(e_n)$$ are the first, second ord
 #### C. Probabilistic Detection Schemes
 The algorithm applies a time window to the radar data obtained on each beam and calculates a spike score using both of the operators described in the two previous subsections. The difference between the spike score and a spike threshold is projected onto a sigmoid curve to estimate probability. The algorithm then estimates median spike probability $$\mu^{(x)}$$ across the beams, multiple beam detection probability $$\theta^{(x)}$$ , and reliability score $$\gamma^{(x)}$$ for all beams during that time window. The detection probability $$\tau^{(x)}$$ is estimated by multiplying $$\mu^{(x)}$$ and $$\theta^{(x)}$$. More details about these metrics are listed in Table I. The final output is the probability and reliability score, both of which need to be high for a successful spike detection.
 
-| Attempt | #1    | #2    |
+| Symbol  | Description    | Range |
 | :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
+| $$\mu^{(x)}$$ | Median spike probability across the beam: Probability that a spike occurred. | \[0-1\]  |
+| $$\theta^{(x)}$$ | Beam detection probability: Probability that a spike occurred accross multiple beams within $$\Delta T$$ interval. | \[0-1\]   |
+| $$\tau^{(x)}$$ | Probability that a spike occurred: Probability that a spike occurred across different radar beams within $$\Delta T$$ interval.   | \[0-1\]   |
+| $$\gamma^{(x)}$$ | Reliability Score: Quantify uncertainity in $$\tau^{(x)}$$ estimates. A high value is expected for a reliable $$\tau^{(x)}$$ estimate.   | \[0-1\]   |
 
 ### Results/Analysis
 
