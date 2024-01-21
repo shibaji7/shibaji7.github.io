@@ -33,6 +33,17 @@ Z-score represents how many standard deviations away a given observation is from
     z(e_n) = 0.6745 \times \frac{e_n - e_n^M}{e_n^{MAD}}
 \end{equation}
 
-where: $$e^M_n, $$e^{MAD}_n$$, and $$z(e_n)$$ are the median, median absolute deviations, and Z-score of backscatter count ($$e_n$$). For a spike the $$z(e_n)$$ value is high.
+where: $$e^M_n$$, $$e^{MAD}_n$$, and $$z(e_n)$$ are the median, median absolute deviations, and Z-score of backscatter count ($$e_n$$). For a spike the $$z(e_n)$$ value is high.
 
-#### B. Nonlinear Energy Operator
+#### B. Nonlinear Energy Operator (NEO)
+The NEO provides a measure of change in the instantaneous energy (i.e., squared magnitude of the considered signal) in the signal, here SuperDARN radar backscatter count ( $$e_n$$ ). Previous studies have found that NEO can discriminate between spikes and noise better than a simple thresholding detector, specifically when the signal-to-noise ratio (SNR) is low. Another study found the NEO provided more accurate spike detection than detectors and had lower computational requirements. The main goal of the NEO, defined in Equation \eqref{eq:neo} , is to emphasize the difference between spikes and noise. The NEO adapts to changes in SNR level to identify the spike in the data:
+
+\begin{equation}
+\label{eq:zscore}
+    neo(e_n) = \dot{e}_n^2 - \ddot{e}_n e_n
+\end{equation}
+
+where: $$\dot{e}_n$$, $$\ddot{e}_n$$, and $$neo(e_n)$$ are the first, second order time derivative, and spike score of backscatter count $$(e_n)$$ estimated using the NEO. For a spike the value of $$neo(e_n)$$ is high.
+
+#### C. Probabilistic Detection Schemes
+The algorithm applies a time window to the radar data obtained on each beam and calculates a spike score using both of the operators described in the two previous subsections. The difference between the spike score and a spike threshold is projected onto a sigmoid curve to estimate probability. The algorithm then estimates median spike probability $$\mu^{(x)}$$ across the beams, multiple beam detection probability $$\theta^{(x)}$$ , and reliability score $$\gamma^{(x)}$$ for all beams during that time window. The detection probability $$\tau^{(x)}$$ is estimated by multiplying $$\mu^{(x)}$$ and $$\theta^{(x)}$$. More details about these metrics are listed in Table II. The final output is the probability and reliability score, both of which need to be high for a successful spike detection.
