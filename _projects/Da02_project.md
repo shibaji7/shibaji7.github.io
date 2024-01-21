@@ -39,7 +39,7 @@ where: $$e^M_n$$, $$e^{MAD}_n$$, and $$z(e_n)$$ are the median, median absolute 
 The NEO provides a measure of change in the instantaneous energy (i.e., squared magnitude of the considered signal) in the signal, here SuperDARN radar backscatter count ( $$e_n$$ ). Previous studies have found that NEO can discriminate between spikes and noise better than a simple thresholding detector, specifically when the signal-to-noise ratio (SNR) is low. Another study found the NEO provided more accurate spike detection than detectors and had lower computational requirements. The main goal of the NEO, defined in Equation \eqref{eq:neo} , is to emphasize the difference between spikes and noise. The NEO adapts to changes in SNR level to identify the spike in the data:
 
 \begin{equation}
-\label{eq:zscore}
+\label{eq:neo}
     neo(e_n) = \dot{e}_n^2 - \ddot{e}_n e_n
 \end{equation}
 
