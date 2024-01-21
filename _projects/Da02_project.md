@@ -25,7 +25,7 @@ Figure illustrates Blackstone (BKS) radar measurements and GOES X-ray fluxes on 
 In this study we have used two different spike detection techniques to identify SWF signatures in SuperDARN backscatter observations. First, a modified Z-score based spike detection technique, also referred as the Whitaker-Hayes algorithm, and second, a nonlinear energy operator (NEO).
 
 #### A. Modified Z-score
-Z-score represents how many standard deviations away a given observation is from the mean. By contrast, the modified Z-score is estimated using the median (\[M\]) and median absolute deviation (\[MAD\]) instead of mean and standard deviation. Equation 1 presents the modified Z-score assuming the backscatter count ( \[$e_n$\] ) is normally distributed. The multiplier 0.6745 in the equation is the 0.75 th quartile of the standard normal distribution, to which the \[MAD\] converges:
+Z-score represents how many standard deviations away a given observation is from the mean. By contrast, the modified Z-score is estimated using the median (\[M\]) and median absolute deviation (\[MAD\]) instead of mean and standard deviation. Equation 1 presents the modified Z-score assuming the backscatter count ( \[\delta\] ) is normally distributed. The multiplier 0.6745 in the equation is the 0.75 th quartile of the standard normal distribution, to which the \[MAD\] converges:
 
 \[
     z(e_n) = 0.6745 \times \frac{e_n - e_n^M}{e_n^{MAD}}
