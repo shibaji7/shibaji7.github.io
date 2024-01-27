@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SWF Detection
-description: Probabilistic Short-wave Fadeout Detection in SuperDARN Time Series Observations
+description: Short-wave Fadeout Monitoring Tool
 img: assets/img/SWF_monitoring.png
 importance: 3
 tags: swf ml analytics
