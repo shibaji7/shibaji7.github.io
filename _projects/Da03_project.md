@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SWF Detection
+title: SWF Monitoring
 description: Short-wave Fadeout Monitoring Tool
 img: assets/img/SWF_monitoring.png
 importance: 3
