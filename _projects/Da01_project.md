@@ -4,6 +4,7 @@ title: Magnetic Storms
 description: Probabilistic storm detection
 img: assets/img/MagneticStorm.png
 importance: 1
+tags: gmd analytics ml
 category: Data Analytics
 ---
 

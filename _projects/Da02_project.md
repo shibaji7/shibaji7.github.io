@@ -4,7 +4,7 @@ title: SWF Detection
 description: Probabilistic Short-wave Fadeout Detection in SuperDARN Time Series Observations
 img: assets/img/SWF.png
 importance: 2
-tags: formatting math
+tags: swf ml analytics
 category: Data Analytics
 ---
 
