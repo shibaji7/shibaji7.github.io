@@ -7,6 +7,16 @@ importance: 3
 category: Research
 ---
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/TSEGAE.png" title="2 Layer Model Output" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A map showing the paths of CONUS eclipses, where the red lines denote the 90% occultation for October 2023 and the path of totality for the other two. Orange lines denote the 50% occultation regions. Blue dots denote the locations of ionosondes. Region enclosed by the blue contours are the fields-of-view (FoV) of SuperDARN HF radars.
+</div>
+
 The solar eclipse in April 2024 presents a unique opportunity for ionospheric scientific exploration. As the moon’s shadow sweeps across the contiguous United States, it provides a natural laboratory to study the ionosphere—a partially ionized region of our atmosphere that plays a crucial role in radio communication, navigation, and space weather. During a solar eclipse, the reduction in solar radiation leads to a decrease in ionization. This decrease in ionization causes changes in the density of ionospheric plasma. We seek to unravel the intricate interactions between solar energy, Earth’s atmosphere, and space, by closely studying the response of plasma to this eclipse and comparing it to the recent eclipses that occurred over the same geographic area.
 
 <div class="row">
@@ -16,16 +26,6 @@ The solar eclipse in April 2024 presents a unique opportunity for ionospheric sc
 </div>
 <div class="caption">
     Line-of-sight (LoS) velocity observations from beam 07 of Christmas Valley West (CVW) SuperDARN HF radar during eclipse on August 2017, showing eclipse effects on HF-observations. Velocity is color coded by color bar on right. Adopted from Moses et al (2021). The vertical dashed lines represent start and end of eclipse.
-</div>
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TSEGAE.png" title="2 Layer Model Output" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A map showing the paths of CONUS eclipses, where the red lines denote the 90% occultation for October 2023 and the path of totality for the other two. Orange lines denote the 50% occultation regions. Blue dots denote the locations of ionosondes. Region enclosed by the blue contours are the fields-of-view (FoV) of SuperDARN HF radars.
 </div>
 
 Our project aims to study the ionospheric response during solar eclipses, focusing on the April 2024 eclipse in the contiguous United States. Our overarching goal is to understand and quantify the relative importance of external forces on the ionospheric density responses to the October 2023 and April 2024 solar eclipses as observed by HF sounding and compare the findings with the August 2017 solar eclipse. We will address the following science questions: 
