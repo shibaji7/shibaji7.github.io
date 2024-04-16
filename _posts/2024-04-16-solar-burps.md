@@ -2,7 +2,7 @@
 layout: post
 title:  Solar Burps
 date:   2024-04-16 06:40:00
-description: Solar Burps! - In reality it's anything but calm
+description: In reality it's anything but calm
 tags: formatting links
 categories: sample-posts
 thumbnail: assets/img/9.jpg
