@@ -54,7 +54,7 @@ pagination:
   </div>
   {% endif %}
 
-  <!-- {% assign featured_posts = site.posts | where: "featured", "true" %}
+  {% assign featured_posts = site.posts | where: "featured", "true" %}
   {% if featured_posts.size > 0 %}
     <br>
     <div class="container featured-posts">
@@ -175,6 +175,6 @@ pagination:
 
   {%- if page.pagination.enabled -%}
     {%- include pagination.html -%}
-  {%- endif -%} -->
+  {%- endif -%}
 
 </div>
