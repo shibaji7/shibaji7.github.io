@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Solar Burps -- In reality it's anything but calm!
+title:  Solar Burps
 date:   2024-04-16 7:00:00
 description: In reality it's anything but calm!
 tags: CME GMD Flare
