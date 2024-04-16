@@ -79,3 +79,8 @@ Imagination aside, these are severe impact on our modern civilization. Loosing s
 
 Every stom comes with a `Rainbow`. Just like any tropical storm, `magnetic storm` create its own `Rainbow`, we refer it as `Aurora`. It is out of the world scean one can expeiance. Earth's magnetic fields that diverts the energetic palsma particles, traps a part of those eneregtic particles and stream them around the Earth's magnetic pole causeing `Aurora`. More about `Aurora` and their formation mechanism in a later post...
 
+In summary, we have not seen really seen a truely large `solar storm` and associated `magnetic storm` in over 100 years. Neither of these two events in March 1989 or Spetember 2017 compares to the great solar storm of 1859 (`Carrington Event`), which known to be the largest known `solar storm`. With insurgence of modern numerical techqiues and AI tool we `think` we have the capability of predicting the scale of a large `solar storm`. The reality migth be much grave than what we expecet, the reason of our reliance of electriacl equipments and satellites incraesing day-by-day, and we are unaware of the fact how much a `Carrington Event` may cost us!
+
+<blockquote>
+While, Sun may give us life, one extra big `Burp` could produce some grave problems. I would like to 'think' myself as a non-belever, but may be this is the reason ancient civilizations treated the Sun as a God!
+</blockquote>
