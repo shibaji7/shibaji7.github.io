@@ -6,7 +6,7 @@ description: In reality it's anything but calm!
 tags: CME GMD Flare
 categories: sample-posts
 featured: true
-thumbnail: assets/img/burps.png
+thumbnail: assets/img/Burps.png
 ---
 
 <blockquote>
