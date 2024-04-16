@@ -95,9 +95,9 @@ pagination:
       </div>
     </div>
     <hr>
-  {% endif %} -->
+  {% endif %}
 
-  <!-- <ul class="post-list">
+  <ul class="post-list">
 
     {%- if page.pagination.enabled -%}
       {%- assign postlist = paginator.posts -%}
