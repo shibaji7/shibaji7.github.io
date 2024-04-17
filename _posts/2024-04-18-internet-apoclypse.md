@@ -5,7 +5,7 @@ date:   2024-04-18 16:00:00
 description: The question is not 'If' but 'When'!
 tags: GMD magnetic-induction
 categories: sample-posts
-featured: true
+featured: false
 thumbnail: assets/img/induction.png
 ---
 <blockquote>
