@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Internet Apoclypse!
-date:   2024-04-16 16:00:00
+date:   2024-04-18 16:00:00
 description: The question is not 'If' but 'When'!
 tags: GMD magnetic-induction
 categories: sample-posts
