@@ -5,13 +5,13 @@ date:   2024-04-11 7:00:00
 description: How do eclipse glasses work?
 tags: space eclipse
 categories: sample-posts
-thumbnail: assets/img/eclipse-glasses.png
+thumbnail: assets/img/eclipse-glasses.jpg
 ---
 Solar eclipse glasses have been created for the sole purpose of protecting your retinas should you be lucky enough to experience a solar eclipse. Solar eclipse glasses are specially designed with a so-called solar filter, an elaborate piece of technology that is engineered to block, among others, the ‘harmful wavelength’ of sun radiation. This solar filter blocks light from outside the visible spectrum (polychromatic ultraviolet or UV and polychromatic infrared or IR radiation) perfectly fine, as well as all intense visible light that might escape quantitative absorbance.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eclipse-glasses-iop.png" title="Monitoring" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/eclipse-glass-iop.png" title="Eclipse Glasses" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -23,11 +23,11 @@ These glasses are constructed differently from regular sunglasses or tinted glas
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eclipse-glasses.png" title="Monitoring" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/eclipse-glasses.jpg" title="Monitoring" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Me trying to see the 2017 Great American Eclipse with RayBan. Photo Credit: [Alamy.com](https://www.alamy.com/abhinaba-nandy-left-and-shibaji-chakraborty-who-traveled-from-virginia-tech-nap-in-veterans-park-as-they-wait-for-the-start-of-the-total-solar-eclipse-on-monday-aug-21-2017-in-spring-city-tenn-doug-stricklandchattanooga-times-free-press-via-ap-image533188276.html?source=post_page-----ec0966eb52c4--------------------------------).
+    Me trying to see the 2017 Great American Eclipse with RayBan. Photo Credit: Alamy.com.
 </div>
 
 > Rick Fienberg, the press officer for the American Astronomical Society (AAS), explained to [Space.com](https://www.space.com/36941-solar-eclipse-eye-protection-guide.html) that the filters specifically designed for viewing the sun are significantly darker, allowing only a minuscule fraction of light to pass through. In fact, these specialized solar filters are typically around 100,000 times (five order of magnitude) darker than regular sunglasses. He also noted that the majority of ISO-approved eclipse glasses rely on solar filters produced by [AstroSolar](https://astrosolar.com/en/products/whitelight/solar-viewer-astrosolar-silver-gold/) and [Thousand Oaks Optical](https://thousandoaksoptical.com/shop/eclipse/solar-viewer-cards-glasses/).
@@ -40,7 +40,7 @@ Typically, eclipse glasses are made of a thin metallic film with high optical de
     </div>
 </div>
 <div class="caption">
-    Illustration of optical density (OD). Image Credit: [Dr.-Ing. Oliver Pust](https://www.linkedin.com/in/oliverpust/). Check this [post](https://www.linkedin.com/pulse/what-optical-density-od-oliver-pust/) for details.
+    Illustration of optical density (OD). Image Credit: [Dr.-Ing. Oliver Pust]. Check his X-post for details.
 </div>
 
 ### A short note of on optical density (OD).
