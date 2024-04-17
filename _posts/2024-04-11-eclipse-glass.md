@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ecclipse Glasses
+title:  Eclipse Glasses
 date:   2024-04-11 7:00:00
 description: How do eclipse glasses work?
 tags: space eclipse
