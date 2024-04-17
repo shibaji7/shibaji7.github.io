@@ -43,7 +43,7 @@ Typically, eclipse glasses are made of a thin metallic film with high optical de
     Illustration of optical density (OD). Image Credit: [Dr.-Ing. Oliver Pust](https://www.linkedin.com/in/oliverpust/). Check this [post](https://www.linkedin.com/pulse/what-optical-density-od-oliver-pust/) for details.
 </div>
 
-### short note of on optical density (OD).
+### A short note of on optical density (OD).
 OD quantifies a material’s ability to attenuate the intensity of light passing through it. A material with higher OD can absorb light significantly in comparison to a material with lower OD. For example, a material with an OD=2.0 reduces the intensity of light by a factor of 100 in comparison to a material with OD=0.
 
 ### Is there any alternative to these metallic film glasses?
