@@ -9,5 +9,5 @@ featured: true
 thumbnail: assets/img/induction.png
 ---
 <blockquote>
-Just like any other Indian millenial kid, my toddler and teanage days were full of stories . My 'audio book', my grandmother, Annapurna Chakraborty, she used to read out stories from old 
+Just like any other Indian millenial kid, my toddler and teanage days were full of stories. My 'audio book', my grandmother, Annapurna Chakraborty, she used to read out stories from old 
 </blockquote>
