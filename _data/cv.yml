@@ -60,10 +60,14 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - Collaborative Research / Investigation of ionospheric density response to American Solar Eclipses using coordinated radio observations with modeling support’ [2024-2027](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2412294&HistoricalAwards=false)
     - year: 2022
       items: 
         - JSPS Postdoctoral Fellowship (Short-term)
         - ISEE international joint research fellowship, Nagoya University
+        - 
     - year: 2021
       items: 
         - IEEE/WiSEE Best conference paper
