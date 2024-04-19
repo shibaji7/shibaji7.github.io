@@ -25,6 +25,7 @@ pagination:
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
+    <h3>Author: {{ site.author }} {% if page.editor %}/ Editor: {{ site.editor }}{% endif %}</h3>
   </div>
   {% endif %}
 

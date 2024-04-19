@@ -1,22 +1,33 @@
 ---
 layout: post
-title:  Internet Apoclypse!
-date:   2024-04-18 16:00:00
+author: Shibaji Chakraborty
+title:  Debunking Internet Apoclypse!
+date:   2024-04-19 16:00:00
 description: The question is not 'If' but 'When'!
 tags: GMD magnetic-induction CME
 categories: sample-posts
 featured: true
 thumbnail: assets/img/induction.png
+editor: Subhasish Sarkar
 ---
 <blockquote>
-Just like any other Indian millenial kid, my toddler and teanage days were full of stories. My 'audio book', my grandmother, used to read out stories from old Hindu scriptures. Many of them are depiction of apocalyptical days. Obviously I heard in my native language bengali: 'সর্বনাশ'. That is the first time I heard the word. There are two takeaways I still remeber: fist, these apocalyptical days came with a life threat. 
+Word  `Apoclypse` always takes me to my childhood days. Just like any other Indian millenial kid, my toddler and teanage days were full of stories. My 'audio book', my grandmother, used to read out stories from old Hindu scriptures. Many of them are depiction of apocalyptical days. Obviously I heard in my native language bengali!
 </blockquote>
 
 ### Know the source of the term 'Internet Apoclypse'
-Being a Space Weather researcher I came accross the paper '[Solar Superstorms: Planning for an Internet Apocalypse](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf)' by [Dr. Jyothi](https://ics.uci.edu/~sabdujyo/). She is an Assistant Professor at the Department of Computer Science at UCLA, Irvine. The paper describes the impact of '[Solar Superstorms](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JA026425)' on internet infrastructure. There is special category of solar storms, leading to large Coronal Mass Ejections ([CMEs](2024-04-16-solar-burps.md)), which then induce larger than expected `magnetic storm` at near-Earth or `Geospace` environment. Scientist at [NOAA](https://www.noaa.gov/) and [NASA](https://www.nasa.gov/) call them `Solar Superstorms`. The [paper](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf) claims that 'it investigated the impact of solar superstorms that can potentially cause large-scale Internet
-outages covering the entire globe and lasting several months', and termed this impact as 'Internet Apoclypse'. The [paper](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf) reasoned `Solar Superstorms` drives  
+Being a Space Weather researcher I came accross the paper '[Solar Superstorms: Planning for an Internet Apocalypse](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf)' by [Dr. Jyothi](https://ics.uci.edu/~sabdujyo/) few years back while working with one of the renound sceintist in the field [Dr. Boteler](). [Dr. Jyothi](https://ics.uci.edu/~sabdujyo/) is an Assistant Professor at the Department of Computer Science at UCLA, Irvine. The paper describes the impact of '[Solar Superstorms](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JA026425)' on the global internet infrastructure. There is special category of solar storms, leading to large Coronal Mass Ejections ([CMEs](2024-04-16-solar-burps.md)), which then induce larger than expected `magnetic storm` at near-Earth or `Geospace` environment. Scientist at [NOAA](https://www.noaa.gov/) and [NASA](https://www.nasa.gov/) call them `Solar Superstorms`. The [paper](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf) claims that 'it investigated the impact of solar superstorms that can potentially cause large-scale Internet outages covering the entire globe and lasting several months', and termed this impact as 'Internet Apoclypse'. Sounds like so `end-of-days`!
 
-After that this term picked up by various media and projected as 'End-of-Day' scenario. 
+> Are we going to suffocate to death by not able to visit Instagram or not able to post to X (formally Twitter)?
+> 
+> Well it depends on your compulsion level about your media activity and phone adiction levels, hence can imagnine answer to this question is subjective.
+
+Enough of these jokes, let's come to the facts. After that this term 'Internet Apoclypse' picked up by various media and projected as 'End-of-Day' scenario and used it as a click-bait to gain profit. I have no issues with their buisness model, untill they are reporting it correctly. Having said that, it is not only their fault, I guess, us humans like to think, discuss, and fantasize these extereme events.
+
+> But the question remains: 
+> * Does it really going to hapend?
+> * Is there any mitigatation or disaster management plans?
+
+
 
 In summary, [the study](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf)
 
