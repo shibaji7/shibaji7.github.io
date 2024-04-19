@@ -19,7 +19,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • A:{{ page.author }}{%- endif -%}{%- if page.editor -%} • E:{{ page.editor }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • A: {{ page.author }}{%- endif -%}{%- if page.editor -%} • E: <a href="https://twitter.com/Subhasish_here" target="_blank">{{ page.editor }}</a>{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
     <p class="post-tags">
       {% if url_beginning == '/blog/' -%}
       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
