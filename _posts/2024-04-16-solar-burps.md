@@ -75,7 +75,7 @@ The short answer to this question is 'yes'. While billions of tons of plasma (an
 
 Imagination aside, these have a severe impact on our modern civilization. Losing satellites and power grids can cost billions of dollars. Most of them can cause irreplaceable damage, not to mention public safety issues. So, it should come as no surprise that predicting these events and building safety measures for both satellites and power distribution systems is one of the primary goals of national security. Early warning systems are well in place now - we get anywhere between two-to-five days' notice. Check NOAA websites if you want to get more details on this.
 
-> Can we observe a remanence of a `magnetic storm`?
+> Can we observe a remanence of a 'magnetic storm'?
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Aurora.png" class="img-fluid rounded z-depth-1" zoomable=true %}
