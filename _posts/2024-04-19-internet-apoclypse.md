@@ -21,13 +21,14 @@ Being a Space Weather researcher I came accross the paper '[Solar Superstorms: P
 > 
 > Well it depends on your compulsion level about your media activity and phone adiction levels, hence can imagnine answer to this question is subjective.
 
-Enough of these jokes, let's come to the facts. After that this term 'Internet Apoclypse' picked up by various media and projected as 'End-of-Day' scenario and used it as a click-bait to gain profit. I have no issues with their buisness model, untill they are reporting it correctly. Having said that, it is not only their fault, I guess, us humans like to think, discuss, and fantasize these extereme events.
+Enough of these jokes, let's come to the facts. After that this term 'Internet Apoclypse' picked up by various media and projected as 'End-of-Day' scenario and used it as a click-bait to gain profit. I
+'ve added listed a few articles below for your reference. I have no issues with their buisness model, untill they are reporting it correctly. Having said that, I do not want to blame media, I guess, us humans like to think, discuss, and fantasize these extereme events.
 
 > But the question remains: 
-> * Does it really going to hapend?
+> * Does it really going to hapend? If 'yes', what [Jyothi et al.](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf) has to say abbout it? 
 > * Is there any mitigatation or disaster management plans?
 
-
+Lets starts from the top, [Jyothi et al.](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf) mentioned the `Solar Superstorm` as a Black-swan event for internet infrastructire. The long distance internet cables that 
 
 In summary, [the study](https://ics.uci.edu/~sabdujyo/papers/sigcomm21-cme.pdf)
 
@@ -38,7 +39,7 @@ There are large number of media reports on this topic (I've listed a few of them
 
 
 ### What do you have to worry about?
-Despite what many headlines have been saying, there's no internet apocalypse on the horizon.
+Despite what some headlines have been saying, there's no internet apocalypse on the horizon, what happned if 
 
 ### List of a few articles on 'Internet Apoclypse'
 <a href="https://economictimes.indiatimes.com/news/international/us/internet-apocalypse-what-is-a-solar-storm-and-how-can-it-impact-the-internet-on-earth/articleshow/101287452.cms?from=mdr" title=""><img src="https://img.etimg.com/thumb/msid-101287483,width-300,height-225,imgsize-67680,resizemode-75/internet-apocalypse-what-is-a-solar-storm-and-how-can-it-impact-the-internet-on-earth.jpg" width="100%" style="max-width: 850px;" alt=""></a><br>Provided by <a href="" target="_blank"></a>
