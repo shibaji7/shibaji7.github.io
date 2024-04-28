@@ -2,7 +2,7 @@
 layout: post
 author: Shibaji Chakraborty
 title:  Debunking Internet Apoclypse!
-date:   2024-04-28 16:00:00
+date:   2024-04-28 07:00:00
 description: The question is not 'If' but 'When'!
 tags: GMD magnetic-induction CME
 categories: sample-posts
@@ -66,8 +66,6 @@ Michael Faraday proved moving bar-magnet induce an electric current to a nearby 
 
 While there are a large number of media reports on this topic, there is no need to lose your sleep over it. With modern technological advancement more than 95% of internet traffic is routed via submarine internet cables (cables under the water). So, we have a huge reliance on them. The new age internet cables are fiber-optics by nature that are immune to GICs. The underwater internet cables are shielded by the water itself from the induction effects, commonly known as ‘electromagnetic shielding’ — probably a separate topic. In a single word, this shielding mechanism reduced the strength of the induction process and associated impact on the underwater cables.
 
-<a href="https://www.youtube.com/shorts/u-5NCDjhbF4?source=post_page-----32b7f50b537a--------------------------------" title=""><img src="" width="100%" style="max-width: 850px;" alt=""></a><br>Provided by <a href="" target="_blank"></a>
-
 > What Specialists are saying?
 
 Having said all this, there are recorded history of submarine cable voltages getting impacted by magnetic storms. On February 10, 1958 solar storm created alternately loud squawks and faint whispers on the transatlantic communication between Clarenville, Newfoundland, to Oban, Scotland. The naturally induced voltage created constructive and destructive interference with the cable supply voltage.
@@ -82,6 +80,6 @@ Despite what some headlines have been saying, there’s no internet apocalypse o
 However, if any natural calamity is causing some scenario like ‘Internet Apocalypse’ then I would rather worry more about my life over my tweeter feed — Again not a Joke! I’m clear about my priorities.
 
 ### List of a few articles on 'Internet Apoclypse'
-<a href="https://economictimes.indiatimes.com/news/international/us/internet-apocalypse-what-is-a-solar-storm-and-how-can-it-impact-the-internet-on-earth/articleshow/101287452.cms?from=mdr" title=""><img src="https://img.etimg.com/thumb/msid-101287483,width-300,height-225,imgsize-67680,resizemode-75/internet-apocalypse-what-is-a-solar-storm-and-how-can-it-impact-the-internet-on-earth.jpg" width="100%" style="max-width: 850px;" alt=""></a><br>Provided by <a href="" target="_blank"></a>
+<a href="https://economictimes.indiatimes.com/news/international/us/internet-apocalypse-what-is-a-solar-storm-and-how-can-it-impact-the-internet-on-earth/articleshow/101287452.cms?from=mdr" title=""><img src="https://img.etimg.com/thumb/msid-101287483,width-300,height-225,imgsize-67680,resizemode-75/internet-apocalypse-what-is-a-solar-storm-and-how-can-it-impact-the-internet-on-earth.jpg" width="100%" style="max-width: 850px;" alt=""></a><br>Provided by Economics Times<a href="" target="_blank"></a>
 
-<a href="https://www.outlookindia.com/international/internet-apocalypse-solar-storm-2025-nasa-communication-news-302259" title=""><img src="https://media.assettype.com/outlookindia/import/public/uploads/articles/2017/12/15/solar_system_630_630.jpg?w=640&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0" width="100%" style="max-width: 850px;" alt=""></a><br>Provided by <a href="" target="_blank"></a>
+<a href="https://www.outlookindia.com/international/internet-apocalypse-solar-storm-2025-nasa-communication-news-302259" title=""><img src="https://media.assettype.com/outlookindia/import/public/uploads/articles/2017/12/15/solar_system_630_630.jpg?w=640&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0" width="100%" style="max-width: 850px;" alt=""></a><br>Provided by Outlook India<a href="" target="_blank"></a>
