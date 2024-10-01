@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Coronal Hole
-description: Identificantion of Coronal Holes and Boundaries
+description: Identification of Coronal Holes and Boundaries
 img: assets/img/CoronalHoles.png
 importance: 4
 category: Research
