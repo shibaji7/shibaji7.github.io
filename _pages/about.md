@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://vt.superdarn.org/'>Affiliations</a>. Center for Space Science and Engineering Research, Virginia Tech, Blacksburg, VA.
+subtitle: <a href='https://vt.superdarn.org/'>Affiliations</a>. Space and Atmospheric Instrumentation Lab, CSAR, Embry-Riddle Aeronautical University, Daytona Beach, FL.
 
 profile:
   align: right
