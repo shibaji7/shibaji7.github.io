@@ -30,7 +30,7 @@ Being a Space Weather researcher I came across this scientific paper ‘[Solar S
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SolarStorm.png" title="Solar Storms" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/Storm.png" title="Solar Storms" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
