@@ -9,7 +9,7 @@ category: Research
 Solar flares pose a significant threat to High Frequency (HF) radio wave propagation, particularly in the frequency range of 3-30 MHz. This research delved into the intricate impact of solar flares on trans-ionospheric signals. A notable consequence of solar flares is the heightened absorption of HF signals at the D-region heights, resulting in what is commonly known as shortwave fadeout (SWF). Leveraging observations from the SuperDARN HF radar and employing first-principle-based modeling, this study characterized and modeled this flare-induced HF absorption.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SWF.jpg" title="shortwave fadeout" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SWF.png" title="shortwave fadeout" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -20,7 +20,7 @@ Beyond absorption, solar flares induce dynamic disruptions in the HF signal freq
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/DF.jpg" title="doppler flash" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/DF.png" title="doppler flash" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -31,7 +31,7 @@ In addition to these investigations, study revisited a less-explored ionospheric
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Slugg.jpg" title="ionospheric sluggishness" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Slugg.png" title="ionospheric sluggishness" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

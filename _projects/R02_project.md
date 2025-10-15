@@ -13,7 +13,7 @@ SCUBAS employs a generalized thin sheet analysis specifically designed for frequ
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Thinsheet-Model.jpg" title="thinsheet model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Thinsheet-Model.png" title="thinsheet model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
