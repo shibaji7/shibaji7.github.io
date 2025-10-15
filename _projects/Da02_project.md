@@ -62,7 +62,7 @@ Following figure presents example results from the SWF detection scheme applied 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/swf_anomaly_event.jpg" title="ionospheric sluggishness" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/swf_anomaly_event.png" title="Anomaly" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -75,7 +75,7 @@ Following figure shows how the solar flare - SWF spike correlation coefficient v
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/swf_anomaly_stats.jpg" title="ionospheric sluggishness" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/swf_anomaly_stats.png" title="ionospheric sluggishness" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
