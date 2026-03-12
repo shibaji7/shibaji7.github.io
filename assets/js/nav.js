@@ -18,7 +18,7 @@
   <button class="sidebar-close" id="sidebar-close">&#10005;</button>
 
   <div class="sidebar-profile">
-    <a href="index.html"><img src="assets/img/headshot.png" alt="Shibaji Chakraborty" class="sidebar-photo"></a>
+    <a href="index.html"><img src="assets/img/logo.svg" alt="Shibaji Chakraborty" class="sidebar-photo"></a>
     <div class="sidebar-name">Shibaji Chakraborty</div>
     <div class="sidebar-title">Research Scientist<br>SAIL · ERAU</div>
   </div>

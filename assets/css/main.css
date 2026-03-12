@@ -168,11 +168,13 @@ hr {
 }
 
 .sidebar-photo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid rgba(255,255,255,0.15);
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius);
+  object-fit: contain;
+  border: none;
+  background: rgba(255,255,255,0.06);
+  padding: 10px;
   margin-bottom: 14px;
   display: block;
   margin-left: auto;
@@ -923,6 +925,38 @@ hr {
   .pub-item { grid-template-columns: 1fr; }
   .pub-num { display: none; }
   .news-item { grid-template-columns: 70px 1fr; gap: 10px; }
+
+  /* Typography */
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.25rem; }
+
+  /* About page */
+  .about-text h1 { font-size: 1.5rem; }
+  .about-photo { width: 110px; }
+
+  /* CV */
+  .cv-entry { grid-template-columns: 1fr; gap: 4px; }
+  .cv-date { font-size: 0.75rem; color: var(--accent); }
+
+  /* Tables — horizontal scroll */
+  .course-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Blog post footer nav — stack vertically on small screens */
+  .post-footer-nav { flex-direction: column; }
+  .post-nav-link { text-align: left !important; }
+
+  /* Project/blog hero */
+  .post-hero, .proj-hero { padding: 36px 5% 32px !important; }
+
+  /* Stat boxes */
+  .stat-row { flex-wrap: wrap; gap: 12px; }
+  .stat-box { min-width: calc(50% - 8px); }
+
+  /* Publication filter tags */
+  .filter-bar { flex-wrap: wrap; gap: 6px; }
+
+  /* Print bar */
+  .print-btn-bar { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
 
 /* ---------- Print styles ---------- */
