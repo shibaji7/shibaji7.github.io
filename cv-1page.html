@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1-Page CV — Shibaji Chakraborty</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    /* CV sheet sits inside .page, overrides max-width for print */
+    .cv1{font-family:'Lato',sans-serif;font-size:.87rem;color:#111;line-height:1.45;background:#fff;padding:1.6rem 1.8rem;border:1px solid var(--border);border-radius:var(--radius)}
+    .cv1-head{display:grid;grid-template-columns:1fr auto;align-items:start;border-bottom:2.5px solid #1a5276;padding-bottom:.55rem;margin-bottom:.8rem}
+    .cv1-name{font-size:1.45rem;font-weight:700;color:#1a2332}
+    .cv1-title{font-size:.78rem;color:#555;margin-top:2px}
+    .cv1-contact{font-size:.73rem;color:#555;text-align:right;line-height:1.75}
+    .cv1-contact a{color:#1a5276;text-decoration:none}
+    .cv1-body{display:grid;grid-template-columns:1fr 1fr;gap:0 1.4rem}
+    .st{font-size:.69rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#1a5276;border-bottom:1px solid #1a5276;padding-bottom:3px;margin:.85rem 0 .45rem}
+    .st:first-child{margin-top:0}
+    .er{display:flex;justify-content:space-between;gap:.4rem;margin-bottom:.08rem}
+    .er .role{font-weight:700;font-size:.81rem;color:#111}
+    .er .dt{font-size:.72rem;color:#777;white-space:nowrap}
+    .org{font-size:.77rem;color:#555;margin-bottom:.18rem}
+    .pi{font-size:.75rem;line-height:1.5;color:#333;padding:.18rem 0;border-bottom:1px solid #f2f2f2}
+    .pi:last-child{border-bottom:none}
+    .pi .me{font-weight:700;color:#1a5276}
+    .pi em{color:#777}
+    .pills{display:flex;flex-wrap:wrap;gap:.3rem}
+    .pill{background:#eaf0f6;border-radius:10px;padding:2px 8px;font-size:.7rem;color:#444}
+    .ag{font-size:.64rem;font-weight:700;background:#1a5276;color:#fff;border-radius:2px;padding:0px 4px;margin-left:3px;vertical-align:middle}
+    .aw{display:flex;justify-content:space-between;font-size:.77rem;padding:.1rem 0;border-bottom:1px solid #f5f5f5}
+    .aw:last-child{border-bottom:none}
+    @page{size:letter;margin:.55in .65in}
+    @media print{
+      html,body{font-size:9pt!important}
+      .print-btn-bar,#sidebar,#topbar,#overlay,#scroll-top{display:none!important}
+      #main{margin-left:0!important;padding-top:0!important}
+      .page{padding:0!important;max-width:100%!important}
+      .cv1{border:none;padding:0}
+      .cv1-name{font-size:16pt}
+    }
+  </style>
+</head>
+<body>
+<script src="assets/js/nav.js"></script>
+
+<div id="main">
+
+<div class="print-btn-bar">
+  <div>
+    <a href="cv.html" class="btn btn-outline btn-sm">← Full CV</a>
+    <a href="cv-2page.html" class="btn btn-outline btn-sm" style="margin-left:6px">2-Page CV</a>
+  </div>
+  <div style="display:flex;gap:8px">
+    <a href="assets/pdf/Chakraborty.pdf" target="_blank" class="btn btn-primary btn-sm">⬇ PDF</a>
+    <button onclick="window.print()" class="btn btn-outline btn-sm">🖨 Print / Save PDF</button>
+  </div>
+</div>
+
+<div class="page">
+
+  <div class="cv1">
+    <div class="cv1-head">
+      <div>
+        <div class="cv1-name">Shibaji Chakraborty</div>
+        <div class="cv1-title">Research Scientist · SAIL · Embry-Riddle Aeronautical University</div>
+      </div>
+      <div class="cv1-contact">
+        chakras4@erau.edu &nbsp;|&nbsp; (1) 540-739-0127<br>
+        <a href="https://shibaji7.github.io">shibaji7.github.io</a> &nbsp;|&nbsp; ORCID: 0000-0001-6792-0037
+      </div>
+    </div>
+
+    <div class="cv1-body">
+      <!-- LEFT -->
+      <div>
+        <div class="st">Appointments</div>
+        <div class="er"><span class="role">Research Scientist</span><span class="dt">2024–</span></div>
+        <div class="org">SAIL · Embry-Riddle Aeronautical University</div>
+        <div class="er"><span class="role">Postdoctoral Associate</span><span class="dt">2021–2024</span></div>
+        <div class="org">Virginia Tech (Baker &amp; Ruohoniemi groups)</div>
+        <div class="er"><span class="role">IT Analyst</span><span class="dt">2010–2015</span></div>
+        <div class="org">Tata Consultancy Services Innovation Labs</div>
+
+        <div class="st">Education</div>
+        <div class="er"><span class="role">Ph.D., Electrical Engineering</span><span class="dt">2021</span></div>
+        <div class="org">Virginia Tech · Advisors: Baker &amp; Ruohoniemi</div>
+        <div class="er"><span class="role">M.A., Data Analytics &amp; Applied Statistics</span><span class="dt">2020</span></div>
+        <div class="org">Virginia Tech</div>
+        <div class="er"><span class="role">M.S., Electrical Engineering</span><span class="dt">2017</span></div>
+        <div class="org">Virginia Tech</div>
+        <div class="er"><span class="role">B.Tech., Electronics &amp; Communication</span><span class="dt">2010</span></div>
+        <div class="org">WBUT, Kolkata, India</div>
+
+        <div class="st">Selected Publications (31 total · 250+ citations)</div>
+        <div class="pi"><span class="me">Chakraborty, S.</span> et al. (2025). G-condition following 2017 eclipse. <em>Earth &amp; Space Sci.</em>, 12, e2024EA004007.</div>
+        <div class="pi"><span class="me">Chakraborty, S.</span> et al. (2022). Modeling GMI in submarine cables. <em>Front. Phys.</em>, 10, 1022475.</div>
+        <div class="pi"><span class="me">Chakraborty, S.</span> et al. (2022). Driving influences of Doppler flash. <em>JGR: SP</em>, 127, e2022JA030342.</div>
+        <div class="pi"><span class="me">Chakraborty, S.</span> et al. (2021). Ionospheric sluggishness. <em>JGR: SP</em>, 126, e2020JA028813.</div>
+        <div class="pi"><span class="me">Chakraborty, S.</span> &amp; Morley (2020). Probabilistic Kp prediction. <em>J. Space Wea. Space Clim.</em>, 10, 36.</div>
+      </div>
+
+      <!-- RIGHT -->
+      <div>
+        <div class="st">Research Interests</div>
+        <div class="pills">
+          <span class="pill">Solar flares &amp; ionosphere</span>
+          <span class="pill">SuperDARN HF radar</span>
+          <span class="pill">Geomagnetic induction</span>
+          <span class="pill">Submarine cable space weather</span>
+          <span class="pill">Solar eclipse ionospheric dynamics</span>
+          <span class="pill">Acoustic &amp; gravity waves</span>
+          <span class="pill">ML for space weather</span>
+        </div>
+
+        <div class="st">Technical Skills</div>
+        <div style="font-size:.78rem;color:#444;line-height:1.75">
+          <strong>Languages:</strong> Python, R, MATLAB, Julia, C/C++, Java<br>
+          <strong>ML/Data:</strong> TensorFlow, scikit-learn, Pandas, NumPy<br>
+          <strong>Models:</strong> SAMI3, WACCM-X, IRI, pyDARN, SCUBAS<br>
+          <strong>Tools:</strong> Git, Docker, LaTeX, Flask, HPC/SLURM
+        </div>
+
+        <div class="st">Active Grants</div>
+        <div class="er"><span class="role">PI — Google GARA <span class="ag">Google</span></span><span class="dt">2025</span></div>
+        <div class="org" style="font-size:.74rem">SCUBAS submarine cable GMI quantification</div>
+        <div class="er"><span class="role">PI — NSF-GEM <span class="ag">NSF</span></span><span class="dt">2024–27</span></div>
+        <div class="org" style="font-size:.74rem">Ionospheric–magnetospheric currents &amp; submarine cables</div>
+        <div class="er"><span class="role">PI — NSF Eclipse <span class="ag">NSF</span></span><span class="dt">2024–27</span></div>
+        <div class="org" style="font-size:.74rem">Ionospheric density response to American solar eclipses</div>
+        <div class="er"><span class="role">Co-I — NASA LWS <span class="ag">NASA</span></span><span class="dt">2022–26</span></div>
+        <div class="org" style="font-size:.74rem">Thunderstorm-generated AGW ionospheric responses</div>
+
+        <div class="st">Awards &amp; Fellowships</div>
+        <div class="aw"><span>JSPS Postdoctoral Fellowship</span><span style="color:#888;font-size:.72rem">2022</span></div>
+        <div class="aw"><span>IEEE/WiSEE Best Paper Award</span><span style="color:#888;font-size:.72rem">2021</span></div>
+        <div class="aw"><span>NCAR/UCAR ASP-GVP Fellowship</span><span style="color:#888;font-size:.72rem">2020</span></div>
+        <div class="aw"><span>Virginia Tech Pratt Fellowship</span><span style="color:#888;font-size:.72rem">2019</span></div>
+        <div class="aw"><span>LANL Vella Fellowship</span><span style="color:#888;font-size:.72rem">2018</span></div>
+
+        <div class="st">Service</div>
+        <div style="font-size:.77rem;color:#444;line-height:1.8">
+          AGU Convener (2022) · OSPA Judge (since 2021)<br>
+          NASA Reviewer (2023) · NSF Reviewer (2024)<br>
+          CEDAR Judge (2022, 2024)<br>
+          Reviewer: <em>Nature Comm., JGR, Space Weather, Radio Sci., ApJ, IEEE TGRS</em>
+        </div>
+      </div>
+    </div>
+  </div><!-- /cv1 -->
+</div><!-- /page -->
+</div><!-- /main -->
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
