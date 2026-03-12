@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coronal Hole Detection (CHIPS) — Shibaji Chakraborty</title>
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    .proj-hero { background: var(--bg-alt); border-bottom: 1px solid var(--border); padding: 48px 0 40px; }
+    .proj-hero-inner { max-width: 820px; margin: 0 auto; padding: 0 5%; }
+    .proj-body { max-width: 820px; margin: 0 auto; padding: 48px 5% 60px; }
+    .proj-body h2 { font-size: 1.35rem; margin: 36px 0 14px; color: var(--heading, #1a2332); border-left: 3px solid var(--accent); padding-left: 12px; }
+    .proj-body h3 { font-size: 1.05rem; margin: 24px 0 10px; color: var(--heading, #1a2332); }
+    .proj-body p { font-size: .95rem; line-height: 1.85; color: var(--text-mid); margin-bottom: 20px; }
+    .proj-body blockquote { border-left: 3px solid var(--accent); margin: 20px 0; padding: 10px 20px; background: var(--bg-alt); font-style: italic; color: var(--text-mid); }
+    .fig-wrap { margin: 28px 0; }
+    .fig-wrap img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); }
+    .fig-cap { font-size: .78rem; color: var(--text-muted); margin-top: 8px; line-height: 1.5; }
+    .fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin: 28px 0; }
+    @media(max-width:600px){ .fig-row { grid-template-columns: 1fr; } }
+    .pub-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .pub-chip { font-size: .75rem; padding: 3px 10px; border: 1px solid var(--border); border-radius: 20px; color: var(--accent); text-decoration: none; }
+    .pub-chip:hover { background: var(--accent); color: #fff; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; color: var(--text-muted); text-decoration: none; margin-bottom: 24px; }
+    .back-link:hover { color: var(--accent); }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
+  </style>
+</head>
+<body>
+<script src="../assets/js/nav-sub.js"></script>
+
+<div id="main">
+
+<div class="proj-hero">
+  <div class="proj-hero-inner">
+    <a href="../research.html" class="back-link">← All Projects</a>
+    <div class="badge-row">
+      <span class="badge badge-blue">COSPAR ISWAT</span>
+      <span style="font-size:.82rem;color:var(--text-muted)">pyCHIPS · Solar EUV</span>
+    </div>
+    <h1 style="font-size:clamp(1.6rem,3vw,2.4rem);line-height:1.25;color:var(--heading,#1a2332)">Coronal Hole Detection (CHIPS)</h1>
+    <p style="font-size:1rem;color:var(--text-muted);margin-top:12px">Probabilistic identification of coronal holes and boundaries in solar EUV images using the open-source pyCHIPS algorithm</p>
+  </div>
+</div>
+
+<div class="proj-body">
+
+  <h2>Overview</h2>
+  <p>
+    This project is a part of <a href="https://www.iswat-cospar.org/iswat-cospar" target="_blank" style="color:var(--accent)">COSPAR ISWAT</a> — a global hub for collaborations addressing challenges across the field of space weather. The project centers on the development and application of CHIPS (Coronal Hole Identification using Probabilistic Scheme).
+  </p>
+
+  <h3>CHIPS: Coronal Hole Identification using Probabilistic Scheme</h3>
+  <p>
+    <a href="https://pychips.readthedocs.io/en/latest/" target="_blank" style="color:var(--accent)">pyCHIPS</a> is an open source Python-based model to identify Coronal Holes (CH) and associated boundaries in solar images. The model is used to estimate the probabilities of the Coronal Holes identified by the scheme.
+  </p>
+
+  <div class="fig-row">
+    <div class="fig-wrap">
+      <img src="../assets/img/chipsimage01.png" alt="CHIPS output stages">
+      <p class="fig-cap"><strong>Fig 1.</strong> Final CHIPS output of 19.3 nm 4k '.fits' image at different stages of the identification pipeline.</p>
+    </div>
+    <div class="fig-wrap">
+      <img src="../assets/img/chipsimage02.png" alt="CHIPS coronal hole regions">
+      <p class="fig-cap"><strong>Fig 2.</strong> Different CH regions and associated probabilities for four different thresholds, illustrating the probabilistic nature of the boundary identification.</p>
+    </div>
+  </div>
+
+  <h2>Unveiling the Magnetic Mysteries of the Solar Corona</h2>
+  <p>
+    The enigmatic dance of magnetic fields on the surface of the sun has long captivated solar physicists. To unravel the intricacies of these magnetic phenomena, a focused approach is imperative. A paradigm shift in the overarching objective directs attention toward a meticulous comparison between observed and modeled coronal holes, with the aim of refining magnetic models.
+  </p>
+  <p>
+    At the heart of this transformative approach lies the indispensable role of <strong>CHIPS</strong>. This innovative algorithm, designed to delineate coronal holes, is not merely a tool for identification but a key player in estimating uncertainties. In the realm of magnetic modeling, where precision is paramount, these uncertainties become invaluable.
+  </p>
+  <p>
+    Why the emphasis on uncertainties? The answer lies in the dynamic nature of the sun. Coronal holes — those enigmatic windows into the sun's magnetic soul — exhibit variations that are challenging to model accurately. <strong>CHIPS</strong> not only identifies these features but quantifies the certainty of its detections. This quantification becomes the linchpin in refining our magnetic models.
+  </p>
+  <p>
+    By incorporating uncertainties into our models, we equip ourselves with the tools needed to navigate the intricate magnetic landscape of the sun. This work advocates for a future where observed and modeled coronal holes converge, pushing the boundaries of our understanding and paving the way for more accurate magnetic models.
+  </p>
+
+  <h2>Key Publications</h2>
+  <div class="pub-chips">
+    <a href="https://ore.exeter.ac.uk/repository/handle/10871/134745" target="_blank" class="pub-chip">J18 · ore.exeter.ac.uk/repository/handle/10871/134745</a>
+  </div>
+
+</div>
+
+<footer style="border-top:1px solid var(--border); padding:24px 48px; font-size:0.8rem; color:var(--text-muted); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+  <span>© <span id="year"></span> Shibaji Chakraborty</span>
+  <a href="../index.html" style="color:var(--accent);">← Home</a>
+</footer>
+</div><!-- /main -->
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>

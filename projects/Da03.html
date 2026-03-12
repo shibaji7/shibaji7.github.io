@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWF Real-Time Monitoring Tool — Shibaji Chakraborty</title>
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    .proj-hero { background: var(--bg-alt); border-bottom: 1px solid var(--border); padding: 48px 0 40px; }
+    .proj-hero-inner { max-width: 820px; margin: 0 auto; padding: 0 5%; }
+    .proj-body { max-width: 820px; margin: 0 auto; padding: 48px 5% 60px; }
+    .proj-body h2 { font-size: 1.35rem; margin: 36px 0 14px; color: var(--heading, #1a2332); border-left: 3px solid var(--accent); padding-left: 12px; }
+    .proj-body p { font-size: .95rem; line-height: 1.85; color: var(--text-mid); margin-bottom: 20px; }
+    .proj-body blockquote { border-left: 3px solid var(--accent); margin: 20px 0; padding: 10px 20px; background: var(--bg-alt); font-style: italic; color: var(--text-mid); }
+    .fig-wrap { margin: 28px 0; }
+    .fig-wrap img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); }
+    .fig-cap { font-size: .78rem; color: var(--text-muted); margin-top: 8px; line-height: 1.5; }
+    .fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin: 28px 0; }
+    @media(max-width:600px){ .fig-row { grid-template-columns: 1fr; } }
+    .pub-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .pub-chip { font-size: .75rem; padding: 3px 10px; border: 1px solid var(--border); border-radius: 20px; color: var(--accent); text-decoration: none; }
+    .pub-chip:hover { background: var(--accent); color: #fff; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; color: var(--text-muted); text-decoration: none; margin-bottom: 24px; }
+    .back-link:hover { color: var(--accent); }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
+  </style>
+</head>
+<body>
+<script src="../assets/js/nav-sub.js"></script>
+
+<div id="main">
+
+<div class="proj-hero">
+  <div class="proj-hero-inner">
+    <a href="../research.html" class="back-link">← All Projects</a>
+    <div class="badge-row">
+      <span class="badge badge-blue">Operational Tool</span>
+      <span style="font-size:.82rem;color:var(--text-muted)">SuperDARN North America</span>
+    </div>
+    <h1 style="font-size:clamp(1.6rem,3vw,2.4rem);line-height:1.25;color:var(--heading,#1a2332)">SWF Real-Time Monitoring Tool</h1>
+    <p style="font-size:1rem;color:var(--text-muted);margin-top:12px">Operational monitoring of flare-driven shortwave fadeout events across the North American SuperDARN HF radar network</p>
+  </div>
+</div>
+
+<div class="proj-body">
+
+  <h2>Overview</h2>
+  <p>
+    The X-ray and Extreme Ultra Violet (EUV) radiation released during a solar X-ray flare induces electron density enhancement in the dayside D-region ionosphere. This increased electron density has the capacity to elevate absorption in the high frequency (HF: 3–30 MHz) range, specifically between 1 and 30 MHz. The consequence is a reduction in signal strength affecting shortwave radio transmissions — commonly known as shortwave fadeout (SWF).
+  </p>
+  <p>
+    This project introduces an operational facet of Short-Wave Fadeout (SWF) event monitoring, leveraging a subnetwork within the extensive North American SuperDARN HF radar network. The implemented monitoring tool serves as a valuable resource, offering a concise overview of the effects of solar flares on SuperDARN HF radar observations in the North American sector, with a particular focus on SWF.
+  </p>
+
+  <h2>Monitoring Capabilities</h2>
+  <p>
+    The monitoring tool functions as a comprehensive solution, generating summary reports of flare-driven SWF events. These reports encapsulate key insights into the impact of solar flares on HF propagation conditions, providing an in-depth understanding of the dynamics during the SWF events. Additionally, the tool incorporates modeled HF absorption maps, offering a visual representation of HF conditions precisely during the zenith of the flare.
+  </p>
+
+  <div class="fig-row">
+    <div class="fig-wrap">
+      <img src="../assets/img/SWF_monitoring.png" alt="SWF monitoring time series">
+      <p class="fig-cap"><strong>Fig 1.</strong> A time series of X-ray irradiance from the GOES satellite. Flare start, peak, and end times are identified by F<sub>s</sub>, F<sub>p</sub>, and F<sub>e</sub> respectively. Flare class and solar active region (flare source) is also mentioned in top left corner. The bottom panel features a time series of SuperDARN ground scatter from BKS/FHE/FHW radars. Onset, blackout start, end and recovery times are identified by O, B<sub>s</sub>, B<sub>e</sub>, and R respectively.</p>
+    </div>
+    <div class="fig-wrap">
+      <img src="../assets/img/SWF_monitoring_model.png" alt="SWF model absorption maps">
+      <p class="fig-cap"><strong>Fig 2.</strong> Visual representation of the output from the DRAP (D-Region Absorption Prediction) model and Fiori et al.'s model, respectively, during the peak of a solar flare event on 21:55 UT, 31 December 2023.</p>
+    </div>
+  </div>
+
+  <h2>Significance</h2>
+  <p>
+    By emphasizing SWF and its implications on HF radar observations, this operational tool becomes an indispensable asset for researchers and professionals in the space weather domain. It not only facilitates real-time monitoring but also aids in post-event analysis, contributing significantly to our comprehension of space weather phenomena and their effects on HF communication. The combination of summary reports and modeled absorption maps elevates the tool's utility, enabling a nuanced exploration of SWF events and their consequences within the North American SuperDARN HF radar network.
+  </p>
+  <p>
+    This tool directly builds on the anomaly detection algorithms developed in the <a href="Da02.html" style="color:var(--accent)">SWF Detection project</a>, translating research-grade detection methods into an operational monitoring capability.
+  </p>
+
+</div>
+
+<footer style="border-top:1px solid var(--border); padding:24px 48px; font-size:0.8rem; color:var(--text-muted); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+  <span>© <span id="year"></span> Shibaji Chakraborty</span>
+  <a href="../index.html" style="color:var(--accent);">← Home</a>
+</footer>
+</div><!-- /main -->
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>

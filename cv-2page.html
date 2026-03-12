@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2-Page CV — Shibaji Chakraborty</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    .cv2{font-family:'Lato',sans-serif;font-size:.85rem;color:#111;line-height:1.45;background:#fff;padding:1.5rem 1.7rem;border:1px solid var(--border);border-radius:var(--radius)}
+    .cv2-head{display:grid;grid-template-columns:1fr auto;align-items:start;border-bottom:2.5px solid #1a5276;padding-bottom:.55rem;margin-bottom:.85rem}
+    .cv2-name{font-size:1.38rem;font-weight:700;color:#1a2332}
+    .cv2-title{font-size:.77rem;color:#555;margin-top:2px}
+    .cv2-contact{font-size:.72rem;color:#555;text-align:right;line-height:1.75}
+    .cv2-contact a{color:#1a5276;text-decoration:none}
+    .cv2-body{display:grid;grid-template-columns:1fr 1fr;gap:0 1.4rem}
+    .st{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#1a5276;border-bottom:1px solid #1a5276;padding-bottom:3px;margin:.8rem 0 .4rem}
+    .st:first-child{margin-top:0}
+    .er{display:flex;justify-content:space-between;gap:.4rem;margin-bottom:.05rem}
+    .er .role{font-weight:700;font-size:.8rem;color:#111}
+    .er .dt{font-size:.71rem;color:#777;white-space:nowrap}
+    .org{font-size:.76rem;color:#555;margin-bottom:.16rem}
+    .desc{font-size:.73rem;color:#666;font-style:italic;margin-bottom:.16rem}
+    .aw{display:flex;justify-content:space-between;font-size:.77rem;padding:.1rem 0;border-bottom:1px solid #f5f5f5}
+    .aw:last-child{border-bottom:none}
+    .ag{font-size:.63rem;font-weight:700;background:#1a5276;color:#fff;border-radius:2px;padding:0px 4px;margin-left:3px;vertical-align:middle}
+    .pub{font-size:.73rem;line-height:1.5;color:#333;padding:.16rem 0;border-bottom:1px solid #eee;display:grid;grid-template-columns:1.8rem 1fr;gap:0 .3rem}
+    .pub:last-child{border-bottom:none}
+    .pub-n{font-weight:700;color:#1a5276;font-family:monospace;font-size:.67rem;padding-top:2px}
+    .pub em{color:#777}
+    .me{font-weight:700;color:#1a5276}
+    .pg2{margin-top:1.4rem;padding-top:.9rem;border-top:2.5px solid #1a5276}
+    .pg2-label{font-size:.7rem;color:#999;text-align:right;margin-bottom:.5rem}
+    @page{size:letter;margin:.55in .65in}
+    @media print{
+      html,body{font-size:9pt!important}
+      .print-btn-bar,#sidebar,#topbar,#overlay,#scroll-top{display:none!important}
+      #main{margin-left:0!important;padding-top:0!important}
+      .page{padding:0!important;max-width:100%!important}
+      .cv2{border:none;padding:0}
+      .pg2{page-break-before:always;border-top:2.5px solid #1a5276;padding-top:8pt;margin-top:0}
+      .cv2-name{font-size:15pt}
+    }
+  </style>
+</head>
+<body>
+<script src="assets/js/nav.js"></script>
+
+<div id="main">
+
+<div class="print-btn-bar">
+  <div>
+    <a href="cv.html" class="btn btn-outline btn-sm">← Full CV</a>
+    <a href="cv-1page.html" class="btn btn-outline btn-sm" style="margin-left:6px">1-Page CV</a>
+  </div>
+  <div style="display:flex;gap:8px">
+    <a href="assets/pdf/Chakraborty.pdf" target="_blank" class="btn btn-primary btn-sm">⬇ PDF</a>
+    <button onclick="window.print()" class="btn btn-outline btn-sm">🖨 Print / Save PDF</button>
+  </div>
+</div>
+
+<div class="page">
+
+  <div class="cv2">
+    <!-- ══ PAGE 1 HEADER ══ -->
+    <div class="cv2-head">
+      <div>
+        <div class="cv2-name">Shibaji Chakraborty</div>
+        <div class="cv2-title">Research Scientist · Space and Atmospheric Instrumentation Lab (SAIL) · Embry-Riddle Aeronautical University</div>
+      </div>
+      <div class="cv2-contact">
+        chakras4@erau.edu &nbsp;|&nbsp; (1) 540-739-0127<br>
+        <a href="https://shibaji7.github.io">shibaji7.github.io</a> &nbsp;|&nbsp; ORCID: 0000-0001-6792-0037
+      </div>
+    </div>
+
+    <div class="cv2-body">
+      <!-- PAGE 1 LEFT -->
+      <div>
+        <div class="st">Appointments</div>
+        <div class="er"><span class="role">Research Scientist</span><span class="dt">Sep 2024–Present</span></div>
+        <div class="org">SAIL · Embry-Riddle Aeronautical University, Daytona Beach, FL</div>
+        <div class="er"><span class="role">Postdoctoral Associate</span><span class="dt">May 2021–Sep 2024</span></div>
+        <div class="org">ECE Department · Virginia Tech, Blacksburg, VA</div>
+        <div class="desc">Advisors: Prof. J. B. H. Baker &amp; Prof. J. M. Ruohoniemi</div>
+        <div class="er"><span class="role">IT Analyst</span><span class="dt">Sep 2010–Jul 2015</span></div>
+        <div class="org">Tata Consultancy Services Innovation Labs, Kolkata, India</div>
+
+        <div class="st">Education</div>
+        <div class="er"><span class="role">Ph.D., Electrical Engineering</span><span class="dt">2021</span></div>
+        <div class="org">Virginia Tech</div>
+        <div class="desc"><em>Characterization and Modeling of Solar Flare Impacts on the Ionosphere Observed by SuperDARN HF Radars</em></div>
+        <div class="er"><span class="role">M.A., Data Analytics &amp; Applied Statistics</span><span class="dt">2020</span></div>
+        <div class="org">Virginia Tech</div>
+        <div class="er"><span class="role">M.S., Electrical Engineering</span><span class="dt">2017</span></div>
+        <div class="org">Virginia Tech</div>
+        <div class="er"><span class="role">B.Tech., Electronics &amp; Communication Engineering</span><span class="dt">2010</span></div>
+        <div class="org">West Bengal University of Technology (WBUT), Kolkata, India</div>
+
+        <div class="st">Research Grants</div>
+        <div class="er"><span class="role">PI — Google GARA <span class="ag">Google</span></span><span class="dt">2025</span></div>
+        <div class="desc">Quantifying GIVs in Global Submarine Cables Using SCUBAS</div>
+        <div class="er"><span class="role">PI — NSF-GEM Award <span class="ag">NSF</span></span><span class="dt">2024–2027</span></div>
+        <div class="desc">Ionospheric–Magnetospheric Currents &amp; Submarine Cables</div>
+        <div class="er"><span class="role">PI — NSF Eclipse Award <span class="ag">NSF</span></span><span class="dt">2024–2027</span></div>
+        <div class="desc">Ionospheric Density Response to American Solar Eclipses</div>
+        <div class="er"><span class="role">Co-I — NASA Research Award <span class="ag">NASA</span></span><span class="dt">2024–2025</span></div>
+        <div class="desc">Extreme Geomagnetic &amp; Geoelectric Disturbances</div>
+        <div class="er"><span class="role">Co-I (Inst. PI) — NASA LWS Award <span class="ag">NASA</span></span><span class="dt">2022–2026</span></div>
+        <div class="desc">Thunderstorm-Generated AGW Ionospheric Responses</div>
+      </div>
+
+      <!-- PAGE 1 RIGHT -->
+      <div>
+        <div class="st">Research Interests</div>
+        <div style="font-size:.77rem;color:#444;line-height:1.75">
+          Solar flare effects on the ionosphere · SuperDARN HF radar<br>
+          Geomagnetically induced currents &amp; submarine cable space weather<br>
+          Solar eclipse ionospheric dynamics · Acoustic &amp; gravity waves<br>
+          Machine learning for space weather forecasting
+        </div>
+
+        <div class="st">Technical Skills</div>
+        <div style="font-size:.77rem;color:#444;line-height:1.8">
+          <strong>Languages:</strong> Python, R, MATLAB, Julia, C/C++, Java, SQL<br>
+          <strong>ML/Data:</strong> TensorFlow, scikit-learn, Pandas, NumPy, Dask<br>
+          <strong>Space Physics:</strong> SAMI3, WACCM-X, IRI, pyDARN, SCUBAS, TIEGCM<br>
+          <strong>Tools:</strong> Git, Docker, LaTeX, Flask, HPC/SLURM
+        </div>
+
+        <div class="st">Awards &amp; Fellowships</div>
+        <div class="aw"><span>JSPS Postdoctoral Fellowship (Short-term)</span><span style="color:#888;font-size:.71rem">2022</span></div>
+        <div class="aw"><span>ISEE International Joint Research Fellowship</span><span style="color:#888;font-size:.71rem">2022</span></div>
+        <div class="aw"><span>IEEE/WiSEE Best Conference Paper Award</span><span style="color:#888;font-size:.71rem">2021</span></div>
+        <div class="aw"><span>NCAR/UCAR ASP Graduate Visitor Program Fellowship</span><span style="color:#888;font-size:.71rem">2020</span></div>
+        <div class="aw"><span>Virginia Tech Pratt Fellowship</span><span style="color:#888;font-size:.71rem">2019</span></div>
+        <div class="aw"><span>LANL Vella Fellowship &amp; ISR-1 Summer School</span><span style="color:#888;font-size:.71rem">2018</span></div>
+
+        <div class="st">Publication Statistics</div>
+        <div style="font-size:.77rem;color:#444;line-height:1.85">
+          32 journal articles · 6 conference papers<br>
+          3 invited presentations · 1 Ph.D. dissertation<br>
+          250+ total citations (Google Scholar)
+        </div>
+      </div>
+    </div><!-- /page1 body -->
+
+    <!-- ══ PAGE 2 ══ -->
+    <div class="pg2">
+      <div class="pg2-label">Shibaji Chakraborty — CV page 2</div>
+      <div class="cv2-body">
+        <!-- PAGE 2 LEFT: J1–J15 -->
+        <div>
+          <div class="st">Journal Articles (J1–J15)</div>
+          <div class="pub"><span class="pub-n">J15</span><span>Liu, J., <span class="me">Chakraborty, S.</span>, et al. (2023). Transient response of polar-cusp ionosphere. <em>JGR: SP</em>, 128, e2022JA030565.</span></div>
+          <div class="pub"><span class="pub-n">J14</span><span>Collins, K., …&amp; <span class="me">Chakraborty, S.</span> (2023). Crowdsourced Doppler measurements. <em>Earth Syst. Sci. Data</em>, 15, 1403.</span></div>
+          <div class="pub"><span class="pub-n">J13</span><span><span class="me">Chakraborty, S.</span> et al. (2022). Modeling GMI in submarine cables. <em>Front. Phys.</em>, 10, 1022475.</span></div>
+          <div class="pub"><span class="pub-n">J12</span><span>Prikryl, P., …&amp; <span class="me">Chakraborty, S.</span> (2022). Polar cap patches &amp; TIDs. <em>Ann. Geophys.</em>, 40, 619.</span></div>
+          <div class="pub"><span class="pub-n">J11</span><span><span class="me">Chakraborty, S.</span> et al. (2022). Driving influences of Doppler flash. <em>JGR: SP</em>, 127, e2022JA030342.</span></div>
+          <div class="pub"><span class="pub-n">J10</span><span>Shi, X., …<span class="me">Chakraborty, S.</span>… (2022). pyDARN: Python software for SuperDARN. <em>Front. Astron. Space Sci.</em>, 9, 1022690.</span></div>
+          <div class="pub"><span class="pub-n">J9</span><span>Fiori, R. A. D., <span class="me">Chakraborty, S.</span>, Nikitina, L. (2022). Shortwave fadeout absorption model. <em>JASTP</em>, 230, 105843.</span></div>
+          <div class="pub"><span class="pub-n">J8</span><span><span class="me">Chakraborty, S.</span> et al. (2021). Flare-driven density changes on Doppler flash. <em>JGR: SP</em>, 126, e2021JA029300.</span></div>
+          <div class="pub"><span class="pub-n">J7</span><span><span class="me">Chakraborty, S.</span> et al. (2021). Modeling framework for ionospheric HF absorption. <em>Radio Sci.</em>, 56, e2021RS007285.</span></div>
+          <div class="pub"><span class="pub-n">J6</span><span><span class="me">Chakraborty, S.</span> et al. (2021). Ionospheric sluggishness. <em>JGR: SP</em>, 126, e2020JA028813.</span></div>
+          <div class="pub"><span class="pub-n">J5</span><span><span class="me">Chakraborty, S.</span> &amp; Morley (2020). Probabilistic Kp prediction. <em>J. Space Wea. Space Clim.</em>, 10, 36.</span></div>
+          <div class="pub"><span class="pub-n">J4</span><span>Mukhopadhyay, A., …<span class="me">Chakraborty, S.</span>… (2020). Conductance model for extreme events. <em>Space Wea.</em>, 18, e2020SW002551.</span></div>
+          <div class="pub"><span class="pub-n">J3</span><span><span class="me">Chakraborty, S.</span> et al. (2019). SuperDARN response to space weather. <em>Space Wea.</em>, 17, 1895.</span></div>
+          <div class="pub"><span class="pub-n">J2</span><span><span class="me">Chakraborty, S.</span> et al. (2018). Characterization of short-wave fadeout. <em>Radio Sci.</em>, 53, 472.</span></div>
+          <div class="pub"><span class="pub-n">J1</span><span>Fiori, R. A. D., …<span class="me">Chakraborty, S.</span>… (2018). SuperDARN for monitoring solar X-ray flares. <em>Space Wea.</em>, 16, 1426.</span></div>
+
+          <div class="st">Invited Presentations</div>
+          <div style="font-size:.76rem;color:#444;line-height:1.8">
+            <strong>I3.</strong> HAO Colloquium (Invited), Online, July 2023<br>
+            <strong>I2.</strong> CEDAR Workshop (Invited), Austin, June 2022<br>
+            <strong>I1.</strong> CEDAR Workshop (Invited), Keystone, June 2017
+          </div>
+        </div>
+
+        <!-- PAGE 2 RIGHT: J16–J29 + Service + References -->
+        <div>
+          <div class="st">Journal Articles (J16–J31)</div>
+          <div class="pub"><span class="pub-n">J31</span><span>Bergsson, B., …<span class="me">Chakraborty, S.</span>… (2025). GNSS TEC observations of TIDs from convective sources. <em>JGR: SP</em>, 130(9), e2025JA033938.</span></div>
+          <div class="pub"><span class="pub-n">J30</span><span><span class="me">Chakraborty, S.</span> et al. (2025). Solar flare-induced gradient drift instability. <em>JGR: SP</em>, 130(10), e2025JA033824.</span></div>
+          <div class="pub"><span class="pub-n">J29</span><span>Inchin, P. A., …<span class="me">Chakraborty, S.</span> (2025). Severe weather AGW ionospheric impacts. <em>JGR: SP</em>, 130, e2025JA034012.</span></div>
+          <div class="pub"><span class="pub-n">J28</span><span>Prikryl, P., …<span class="me">Chakraborty, S.</span>… (2025). TIDs driven by gravity waves. <em>Ann. Geophys.</em>, 43, 511.</span></div>
+          <div class="pub"><span class="pub-n">J27</span><span><span class="me">Chakraborty, S.</span> et al. (2025). G-condition following 2017 eclipse. <em>Earth &amp; Space Sci.</em>, 12, e2024EA004007.</span></div>
+          <div class="pub"><span class="pub-n">J26</span><span>Oberheide, J., …<span class="me">Chakraborty, S.</span>… (2025). Terrestrial weather &amp; ionosphere (NASA LWS). <em>Surv. Geophys.</em></span></div>
+          <div class="pub"><span class="pub-n">J25</span><span>Shi, X., <span class="me">Chakraborty, S.</span>, et al. (2025). Joule heating &amp; ULF perturbations. <em>JGR: SP</em>, 130, e2024JA033452.</span></div>
+          <div class="pub"><span class="pub-n">J24</span><span>Rout, D., …<span class="me">Chakraborty, S.</span>… (2024). Equatorial ionization anomaly, Mother's Day storm. <em>GRL</em>, 52, e2024GL111269.</span></div>
+          <div class="pub"><span class="pub-n">J23</span><span>Liu, X., …<span class="me">Chakraborty, S.</span> (2024). Nightside mid-latitude ionospheric trough. <em>JGR: SP</em>, 129, e2024JA032864.</span></div>
+          <div class="pub"><span class="pub-n">J22</span><span>Inchin, P. A., …<span class="me">Chakraborty, S.</span>… (2024). Orographic gravity waves &amp; ionosphere. <em>JGR: SP</em>, 129, e2024JA032485.</span></div>
+          <div class="pub"><span class="pub-n">J21</span><span>Gowtam, V. S., …<span class="me">Chakraborty, S.</span>… (2024). ML-based FAC model. <em>Space Wea.</em>, 22, e2023SW003683.</span></div>
+          <div class="pub"><span class="pub-n">J20</span><span>Boteler &amp; <span class="me">Chakraborty, S.</span> et al. (2024). Geomagnetic induction in submarine cables. <em>Space Wea.</em>, 22, e2023SW003687.</span></div>
+          <div class="pub"><span class="pub-n">J19</span><span>Coyle, S. E., …<span class="me">Chakraborty, S.</span>… (2023). Substorms &amp; solar eclipses. <em>GRL</em>, 50, e2023GL106432.</span></div>
+          <div class="pub"><span class="pub-n">J18</span><span>Reiss, M. A., …<span class="me">Chakraborty, S.</span>… (2023). Community dataset for coronal hole detection. <em>ApJS</em>.</span></div>
+          <div class="pub"><span class="pub-n">J17</span><span>Boteler &amp; <span class="me">Chakraborty</span> et al. (2023). Transmission line modelling of GMI. <em>Int. J. Geosci.</em>, 14, 767.</span></div>
+          <div class="pub"><span class="pub-n">J16</span><span>Rout, D., …<span class="me">Chakraborty, S.</span>… (2023). Ring current/SYM-H northward IMF. <em>Space Wea.</em>, 21, e2023SW003489.</span></div>
+
+          <div class="st">Professional Service</div>
+          <div style="font-size:.76rem;color:#444;line-height:1.8">
+            AGU Fall Meeting Primary Convener (2022)<br>
+            AGU OSPA Judge (since 2021) · CEDAR Judge (2022, 2024)<br>
+            NASA Panel Reviewer (2023) · NSF Panel Reviewer (2024)<br>
+            Google Summer of Code Mentor, Virginia Tech (2018)<br>
+            SuperDARN Data Visualization Working Group (since 2021)<br>
+            Reviewer: <em>Nature Comm., JGR: SP, Space Weather, Radio Science, ApJ, IEEE TGRS, JSWSC</em>
+          </div>
+
+          <div class="st">References</div>
+          <div style="font-size:.74rem;color:#444;line-height:1.7">
+            <strong>J. B. H. Baker</strong> — Prof., ECE, Virginia Tech · bakerjb@vt.edu · (540) 231-3355<br>
+            <strong>J. M. Ruohoniemi</strong> — Prof., ECE, Virginia Tech · mikeruo@vt.edu · (540) 231-1482<br>
+            <strong>D. Boteler</strong> — Scientist, Natural Resources Canada · david.boteler@NRCan-RNCan.gc.ca<br>
+            <strong>L. Qian</strong> — Project Scientist III, HAO/NCAR · lqian@ucar.edu<br>
+            <strong>M. Hartinger</strong> — Research Scientist, SSI · mhartinger@spacescience.org<br>
+            <strong>A. Barjatya</strong> — Prof., Physical Sciences, ERAU · Aroh.Barjatya@erau.edu
+          </div>
+        </div>
+      </div>
+    </div><!-- /page2 -->
+
+  </div><!-- /cv2 -->
+</div><!-- /page -->
+</div><!-- /main -->
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Probabilistic Geomagnetic Storm Prediction — Shibaji Chakraborty</title>
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    .proj-hero { background: var(--bg-alt); border-bottom: 1px solid var(--border); padding: 48px 0 40px; }
+    .proj-hero-inner { max-width: 820px; margin: 0 auto; padding: 0 5%; }
+    .proj-body { max-width: 820px; margin: 0 auto; padding: 48px 5% 60px; }
+    .proj-body h2 { font-size: 1.35rem; margin: 36px 0 14px; color: var(--heading, #1a2332); border-left: 3px solid var(--accent); padding-left: 12px; }
+    .proj-body p { font-size: .95rem; line-height: 1.85; color: var(--text-mid); margin-bottom: 20px; }
+    .proj-body blockquote { border-left: 3px solid var(--accent); margin: 20px 0; padding: 10px 20px; background: var(--bg-alt); font-style: italic; color: var(--text-mid); }
+    .fig-wrap { margin: 28px 0; }
+    .fig-wrap img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); }
+    .fig-cap { font-size: .78rem; color: var(--text-muted); margin-top: 8px; line-height: 1.5; }
+    .fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin: 28px 0; }
+    @media(max-width:600px){ .fig-row { grid-template-columns: 1fr; } }
+    .pub-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .pub-chip { font-size: .75rem; padding: 3px 10px; border: 1px solid var(--border); border-radius: 20px; color: var(--accent); text-decoration: none; }
+    .pub-chip:hover { background: var(--accent); color: #fff; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; color: var(--text-muted); text-decoration: none; margin-bottom: 24px; }
+    .back-link:hover { color: var(--accent); }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
+  </style>
+</head>
+<body>
+<script src="../assets/js/nav-sub.js"></script>
+
+<div id="main">
+
+<div class="proj-hero">
+  <div class="proj-hero-inner">
+    <a href="../research.html" class="back-link">← All Projects</a>
+    <div class="badge-row">
+      <span class="badge badge-blue">Data Analytics</span>
+      <span style="font-size:.82rem;color:var(--text-muted)">Neural Network · Kp Index · Probabilistic Forecast</span>
+    </div>
+    <h1 style="font-size:clamp(1.6rem,3vw,2.4rem);line-height:1.25;color:var(--heading,#1a2332)">Probabilistic Geomagnetic Storm Prediction</h1>
+    <p style="font-size:1rem;color:var(--text-muted);margin-top:12px">Two-layer neural network architecture for Kp index forecasting with 3-hour lead time and uncertainty quantification</p>
+  </div>
+</div>
+
+<div class="proj-body">
+
+  <h2>Overview</h2>
+  <p>
+    This study delves into the intricate realm of geomagnetic activity, a critical aspect of space weather forecasting. Traditionally, space weather predictions have heavily relied on summary indices like Kp to assess the likelihood of space weather impacts. While contemporary forecast models for Kp utilize various methods, ranging from empirically-derived functions to physics-based models and neural networks, they often lack the provision of uncertainty estimates associated with the forecast. This work introduces a groundbreaking methodology designed to address this gap, presenting a two-layered architecture to predict Kp with a 3-hour lead time, complete with uncertainty bounds. Moreover, the study distinguishes between storm (Kp ≥ 5⁻) and non-storm cases, enhancing the precision of predictions.
+  </p>
+
+  <div class="fig-row">
+    <div class="fig-wrap">
+      <img src="../assets/img/MagneticStorm.png" alt="Magnetic storm events training dataset">
+      <p class="fig-cap"><strong>Fig 1.</strong> Geomagnetic storm events used in the training/validation dataset. The Kp index (planetary geomagnetic activity index) is shown for 100+ storms, illustrating the diversity of storm intensities and solar cycle dependence.</p>
+    </div>
+    <div class="fig-wrap">
+      <img src="../assets/img/2LayerModel.png" alt="Two-layer neural network architecture">
+      <p class="fig-cap"><strong>Fig 2.</strong> Proposed model (μ) architecture: Classifier is deterministic in nature, and regressors are probabilistic in nature. The threshold for the classifier is Kp = 5. Here, Wq &amp; Ws are the variable training windows for two regressors.</p>
+    </div>
+  </div>
+
+  <h2>Two-Layer Architecture</h2>
+  <p>
+    A noteworthy innovation within the study is the incorporation of solar X-ray flux as a key parameter. This addition aims to overcome the limitations of solar wind-driven models in predicting transient-driven activity onset. The research explores whether integrating proxies for solar activity, such as solar X-ray flux, can extend the lead time for predicting geomagnetic storm activity. By adopting this approach, the study not only enhances the predictive accuracy of geomagnetic storm onset but also introduces a probabilistic element to the forecasts — a significant advancement in the field.
+  </p>
+
+  <div class="fig-wrap">
+    <img src="../assets/img/2LayerOutput.png" alt="Model forecast output and verification">
+    <p class="fig-cap"><strong>Fig 3.</strong> Three-hour forecast showing (a) probability of geomagnetic storms, (b) Kp (22nd July–31st July, 2004) and (c) an illustration of the method to extract probability of storm occurrence for one prediction marked by vertical black line in panel (b). Black dashed lines in panels (b) and (c) represent the threshold Kp = 5⁻, red and blue thin lines in panel (c) are observed Kp and predicted mean respectively. The shaded region in panel (c) provides probability of geomagnetic storm (Pr[e] = 0.81).</p>
+  </div>
+
+  <h2>Results</h2>
+  <p>
+    The comparative analysis of various models within the study demonstrates that leveraging operational information about solar irradiance significantly improves the efficacy of predictive models. This improvement is particularly valuable in capturing the early stages of geomagnetic storms, presenting a more comprehensive and nuanced understanding of space weather dynamics. Ultimately, this research contributes not only to the refinement of space weather forecasting techniques but also paves the way for more informed and probabilistic assessments of geomagnetic storm events, thereby advancing our capabilities to anticipate and mitigate potential impacts on technological infrastructures.
+  </p>
+
+  <h2>Key Publications</h2>
+  <div class="pub-chips">
+    <a href="https://doi.org/10.1029/2020SW002551" target="_blank" class="pub-chip">J4 · 10.1029/2020SW002551</a>
+    <a href="https://doi.org/10.1051/swsc/2020037" target="_blank" class="pub-chip">J5 · 10.1051/swsc/2020037</a>
+  </div>
+
+</div>
+
+<footer style="border-top:1px solid var(--border); padding:24px 48px; font-size:0.8rem; color:var(--text-muted); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+  <span>© <span id="year"></span> Shibaji Chakraborty</span>
+  <a href="../index.html" style="color:var(--accent);">← Home</a>
+</footer>
+</div><!-- /main -->
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>

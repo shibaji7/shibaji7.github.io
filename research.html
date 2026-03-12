@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research & Projects — Shibaji Chakraborty</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    .proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.4rem; margin-bottom: 2.5rem; }
+    .proj-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; transition: var(--transition); }
+    .proj-card:hover { border-color: var(--accent); box-shadow: 0 4px 20px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .proj-thumb { height: 160px; overflow: hidden; background: var(--bg-alt); }
+    .proj-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .proj-body { padding: 1rem 1.2rem 1.3rem; }
+    .proj-cat { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 2px 8px; border-radius: 3px; }
+    .cat-r { background: rgba(26,82,118,0.1); color: var(--accent); }
+    .cat-da { background: rgba(39,174,96,0.1); color: #27ae60; }
+    .proj-title { font-size: 1rem; font-weight: 700; margin: .5rem 0 .4rem; color: var(--heading, #1a2332); }
+    .proj-desc { font-size: .82rem; color: var(--text-muted); line-height: 1.55; margin-bottom: .8rem; }
+    .proj-link { font-size: .8rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+    .proj-link:hover { text-decoration: underline; }
+    .cat-section-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); border-bottom: 2px solid var(--border); padding-bottom: .4rem; margin: 2rem 0 1.2rem; }
+  </style>
+</head>
+<body>
+<script src="assets/js/nav.js"></script>
+
+<div id="main">
+<div class="page">
+
+  <div class="page-header">
+    <h1>Research &amp; Projects</h1>
+    <p class="subtitle">Transient Space Weather Impacts on the MIT System</p>
+  </div>
+
+  <p style="font-size:.95rem; color:var(--text-mid); line-height:1.8; margin-bottom:1.5rem;">
+    My research program characterizes and predicts the impact of transient solar activity on the near-Earth space environment, with emphasis on how these impacts propagate through the ionosphere to affect HF radio communications, satellite navigation, power grids, and submarine cables.
+    I work at the intersection of observational data analysis, physics-based numerical modeling, and machine learning, using the SuperDARN HF radar network as a primary observational tool alongside coupled whole-atmosphere models and ground-based instrumentation.
+  </p>
+
+  <!-- Research Projects -->
+  <div class="cat-section-label">Research Projects</div>
+  <div class="proj-grid">
+
+    <div class="proj-card" onclick="location.href='projects/R01.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/SolarFlare.png" alt="Solar Flare Effects"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-r">Research</span>
+        <h3 class="proj-title">Solar Flare Effects on HF Radio &amp; Ionosphere</h3>
+        <p class="proj-desc">Characterization of shortwave fadeout, the Doppler Flash, and ionospheric sluggishness using SuperDARN HF radars and WACCM-X simulations.</p>
+        <a href="projects/R01.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card" onclick="location.href='projects/R02.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/GMD.png" alt="GMD Submarine Cable Vulnerability"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-r">Research</span>
+        <h3 class="proj-title">GMD &amp; Submarine Cable Vulnerability (SCUBAS)</h3>
+        <p class="proj-desc">Modeling geomagnetically induced currents in submarine fiber-optic cables using the open-source SCUBAS thin-sheet electromagnetic model.</p>
+        <a href="projects/R02.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card" onclick="location.href='projects/R03.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/SolarEclipse-Front.jpg" alt="Solar Eclipse Ionospheric Physics"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-r">Research</span>
+        <h3 class="proj-title">Solar Eclipse Ionospheric Physics</h3>
+        <p class="proj-desc">NSF-funded (2024–2027) investigation of ionospheric density response to American solar eclipses using SuperDARN, HamSCI, and WACCM-X.</p>
+        <a href="projects/R03.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card" onclick="location.href='projects/R04.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/CoronalHoles.png" alt="Coronal Hole Detection CHIPS"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-r">Research</span>
+        <h3 class="proj-title">Coronal Hole Detection (CHIPS)</h3>
+        <p class="proj-desc">Probabilistic identification of coronal holes and boundaries in solar EUV images using the pyCHIPS open-source algorithm.</p>
+        <a href="projects/R04.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card" onclick="location.href='projects/R05.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/AGWData.png" alt="AGW-Driven Impacts on HF Communication"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-r">Research</span>
+        <h3 class="proj-title">AGW-Driven Impacts on HF Communication</h3>
+        <p class="proj-desc">Investigating how atmospheric gravity waves from severe weather propagate into the ionosphere and affect HF radio propagation.</p>
+        <a href="projects/R05.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Data Analytics & Tools -->
+  <div class="cat-section-label">Data Analytics &amp; Tools</div>
+  <div class="proj-grid">
+
+    <div class="proj-card" onclick="location.href='projects/Da01.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/MagneticStorm.png" alt="Probabilistic Geomagnetic Storm Prediction"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-da">Data Analytics</span>
+        <h3 class="proj-title">Probabilistic Geomagnetic Storm Prediction</h3>
+        <p class="proj-desc">Two-layer neural network for Kp index forecasting with 3-hour lead time and probabilistic uncertainty bounds.</p>
+        <a href="projects/Da01.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card" onclick="location.href='projects/Da02.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/swf_anomaly.png" alt="SWF Anomaly Detection in SuperDARN"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-da">Data Analytics</span>
+        <h3 class="proj-title">SWF Anomaly Detection in SuperDARN</h3>
+        <p class="proj-desc">Probabilistic shortwave fadeout detection in SuperDARN time series using Z-score and nonlinear energy operator methods.</p>
+        <a href="projects/Da02.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card" onclick="location.href='projects/Da03.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/SWF_monitoring.png" alt="SWF Real-Time Monitoring Tool"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-da">Data Analytics</span>
+        <h3 class="proj-title">SWF Real-Time Monitoring Tool</h3>
+        <p class="proj-desc">Operational monitoring tool generating summary reports of flare-driven SWF events across the North American SuperDARN network.</p>
+        <a href="projects/Da03.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+    <div class="proj-card" onclick="location.href='projects/Da04.html'" style="cursor:pointer">
+      <div class="proj-thumb"><img src="assets/img/submarine_cables.png" alt="Submarine Cable Monitoring Google GARA"></div>
+      <div class="proj-body">
+        <span class="proj-cat cat-da">Data Analytics</span>
+        <h3 class="proj-title">Submarine Cable Monitoring (Google GARA)</h3>
+        <p class="proj-desc">Google Unrestricted Award (GARA) project developing tools for monitoring geomagnetically induced voltages in global submarine cables using SCUBAS.</p>
+        <a href="projects/Da04.html" class="proj-link">View Project →</a>
+      </div>
+    </div>
+
+  </div>
+
+</div><!-- /page -->
+
+<footer style="border-top:1px solid var(--border); padding:24px 48px; font-size:0.8rem; color:var(--text-muted); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+  <span>© <span id="year"></span> Shibaji Chakraborty</span>
+  <a href="index.html" style="color:var(--accent);">← Back to About</a>
+</footer>
+</div><!-- /main -->
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

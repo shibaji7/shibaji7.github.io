@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae — Shibaji Chakraborty</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    /* Supplemental CV styles (use existing .cv-section h2, .cv-entry, .cv-date, .cv-body) */
+    .cv-header-card{background:var(--accent);color:#fff;padding:1.4rem 1.8rem;border-radius:var(--radius);margin-bottom:2rem}
+    .cv-header-card h2{font-size:1.35rem;margin:0 0 3px;color:#fff}
+    .cv-header-card p{margin:0;font-size:.87rem;opacity:.88}
+    .cv-contact-row{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;margin-top:.65rem;font-size:.8rem;opacity:.9}
+    .cv-contact-row a{color:#fff;text-decoration:none;border-bottom:1px dotted rgba(255,255,255,.5)}
+    .agency{font-size:.68rem;font-weight:700;background:#fff;color:var(--accent);border-radius:3px;padding:0px 5px;margin-left:4px;vertical-align:middle}
+    .pill-row{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.4rem}
+    .pill{background:var(--bg-alt);border:1px solid var(--border);border-radius:20px;padding:2px 10px;font-size:.78rem;color:var(--text-muted)}
+    .ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.9rem;margin-top:.5rem}
+    .ref-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:.9rem 1rem;font-size:.83rem}
+    .ref-card strong{display:block;margin-bottom:2px}
+    .ref-card .ref-info{color:var(--text-muted);font-size:.79rem;line-height:1.55}
+    .ref-card a{color:var(--accent)}
+    .pub-mini{font-size:.83rem;color:var(--text);line-height:1.6;padding:.45rem 0;border-bottom:1px solid var(--border)}
+    .pub-mini:last-child{border-bottom:none}
+    .pub-mini .me{font-weight:700;color:var(--accent)}
+    .pub-mini em{color:var(--text-muted)}
+    .stat-row{display:flex;flex-wrap:wrap;gap:.9rem;margin:.5rem 0}
+    .stat-box{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:.7rem 1.1rem;text-align:center;min-width:90px}
+    .stat-box .n{font-size:1.6rem;font-weight:800;color:var(--accent);line-height:1}
+    .stat-box .lbl{font-size:.68rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+    @media print{
+      .print-btn-bar{display:none!important}
+      .cv-header-card{background:#1a5276!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    }
+  </style>
+</head>
+<body>
+<script src="assets/js/nav.js"></script>
+
+<div id="main">
+
+<!-- Sticky print bar -->
+<div class="print-btn-bar">
+  <div>
+    <a href="cv-1page.html" class="btn btn-outline btn-sm">1-Page CV</a>
+    <a href="cv-2page.html" class="btn btn-outline btn-sm" style="margin-left:6px">2-Page CV</a>
+  </div>
+  <div style="display:flex;gap:8px">
+    <a href="assets/pdf/Chakraborty.pdf" target="_blank" class="btn btn-primary btn-sm">⬇ PDF</a>
+    <a href="assets/pdf/Chakraborty.docx" download class="btn btn-outline btn-sm">⬇ .docx</a>
+    <button onclick="window.print()" class="btn btn-outline btn-sm">🖨 Print</button>
+  </div>
+</div>
+
+<div class="page">
+  <div class="page-header">
+    <h1>Curriculum Vitae</h1>
+    <p class="subtitle">Full academic CV — updated March 2025</p>
+  </div>
+
+  <!-- Header card -->
+  <div class="cv-header-card">
+    <h2>Shibaji Chakraborty</h2>
+    <p>Research Scientist · Space and Atmospheric Instrumentation Lab (SAIL) · Embry-Riddle Aeronautical University</p>
+    <div class="cv-contact-row">
+      <a href="mailto:chakras4@erau.edu">chakras4@erau.edu</a>
+      <span>(1) 540-739-0127</span>
+      <a href="https://shibaji7.github.io/" target="_blank">shibaji7.github.io</a>
+      <span>ORCID: 0000-0001-6792-0037</span>
+    </div>
+  </div>
+
+  <!-- APPOINTMENTS -->
+  <div class="cv-section">
+    <h2>Appointments</h2>
+    <div class="cv-entry">
+      <div class="cv-date">Sep 2024 –<br>Present</div>
+      <div class="cv-body">
+        <h4>Research Scientist</h4>
+        <div class="cv-org">Space and Atmospheric Instrumentation Lab (SAIL)</div>
+        <div class="cv-loc">Embry-Riddle Aeronautical University · Daytona Beach, FL</div>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">May 2021 –<br>Sep 2024</div>
+      <div class="cv-body">
+        <h4>Postdoctoral Associate</h4>
+        <div class="cv-org">Bradley Dept. of Electrical &amp; Computer Engineering</div>
+        <div class="cv-loc">Virginia Polytechnic Institute and State University · Blacksburg, VA</div>
+        <p>Advisors: Prof. J. B. H. Baker &amp; Prof. J. M. Ruohoniemi</p>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">Sep 2010 –<br>Jul 2015</div>
+      <div class="cv-body">
+        <h4>Information Technology Analyst</h4>
+        <div class="cv-org">Tata Consultancy Services Innovation Labs</div>
+        <div class="cv-loc">Kolkata, India</div>
+        <p>Home Energy Management, Device Management, PaaS gateway development (Python, Java, Scala, Akka)</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="cv-section">
+    <h2>Education</h2>
+    <div class="cv-entry">
+      <div class="cv-date">2015 – 2021</div>
+      <div class="cv-body">
+        <h4>Ph.D., Electrical Engineering</h4>
+        <div class="cv-org">Virginia Polytechnic Institute and State University (Virginia Tech)</div>
+        <p>Dissertation: <em>Characterization and Modeling of Solar Flare Impacts on the Ionosphere Observed by SuperDARN HF Radars</em><br>Advisors: Prof. J. B. H. Baker &amp; Prof. J. M. Ruohoniemi</p>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">2019 – 2020</div>
+      <div class="cv-body">
+        <h4>M.A., Data Analytics and Applied Statistics</h4>
+        <div class="cv-org">Virginia Polytechnic Institute and State University (Virginia Tech)</div>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">2015 – 2017</div>
+      <div class="cv-body">
+        <h4>M.S., Electrical Engineering</h4>
+        <div class="cv-org">Virginia Polytechnic Institute and State University (Virginia Tech)</div>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">2006 – 2010</div>
+      <div class="cv-body">
+        <h4>B.Tech., Electronics and Communication Engineering</h4>
+        <div class="cv-org">West Bengal University of Technology (WBUT) · Kolkata, India</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESEARCH GRANTS -->
+  <div class="cv-section">
+    <h2>Research Grants &amp; Funding</h2>
+    <div class="cv-entry">
+      <div class="cv-date">2025</div>
+      <div class="cv-body">
+        <h4>PI — Google Unrestricted Award (GARA) <span class="agency">Google</span></h4>
+        <p><em>Quantifying Geomagnetically Induced Voltages in Global Submarine Cables Using the SCUBAS Model</em></p>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">2024 – 2027</div>
+      <div class="cv-body">
+        <h4>PI — NSF-GEM Research Award <span class="agency">NSF</span></h4>
+        <p><em>Collaborative Research: GEM: Modeling Ionospheric and Magnetospheric Current Interactions with Submarine Cables</em></p>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">2024 – 2027</div>
+      <div class="cv-body">
+        <h4>PI — NSF Research Award <span class="agency">NSF</span></h4>
+        <p><em>Collaborative Proposal: Investigation of Ionospheric Density Response to American Solar Eclipses Using Coordinated Radio Observations with Modeling Support</em></p>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">2024 – 2025</div>
+      <div class="cv-body">
+        <h4>Co-I — NASA Research Award <span class="agency">NASA</span></h4>
+        <p><em>Determining the Connections Between Driving Conditions, Magnetosphere-Ionosphere-Ground Properties, and Extreme Geomagnetic and Geoelectric Disturbances</em></p>
+      </div>
+    </div>
+    <div class="cv-entry">
+      <div class="cv-date">2022 – 2026</div>
+      <div class="cv-body">
+        <h4>Co-I (Institutional PI) — NASA LWS Research Award <span class="agency">NASA</span></h4>
+        <p><em>Ionospheric Responses to Thunderstorm-Generated Acoustic and Gravity Waves over the Continental US</em></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FELLOWSHIPS -->
+  <div class="cv-section">
+    <h2>Fellowships &amp; Awards</h2>
+    <div class="cv-entry"><div class="cv-date">2022</div><div class="cv-body"><h4>JSPS Postdoctoral Fellowship (Short-term)</h4><div class="cv-org">Japan Society for the Promotion of Science · Nagoya University, Japan</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2022</div><div class="cv-body"><h4>ISEE International Joint Research Fellowship</h4><div class="cv-org">Institute for Space-Earth Environmental Research (ISEE), Nagoya University</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2021</div><div class="cv-body"><h4>Best Conference Paper Award</h4><div class="cv-org">IEEE/WiSEE 2021 — Probabilistic Short-Wave Fadeout Detection</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2020</div><div class="cv-body"><h4>ASP Graduate Visitor Program (GVP) Fellowship</h4><div class="cv-org">NCAR/UCAR Advanced Study Program</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2019</div><div class="cv-body"><h4>Pratt Fellowship</h4><div class="cv-org">Virginia Polytechnic Institute and State University</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2018</div><div class="cv-body"><h4>Vella Fellowship &amp; ISR-1 Summer School</h4><div class="cv-org">Los Alamos National Laboratory (LANL) / ISR</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2010</div><div class="cv-body"><h4>Best Project Award — 'Electronically Yours'</h4><div class="cv-org">Techno India (Newron category)</div></div></div>
+  </div>
+
+  <!-- RESEARCH INTERESTS -->
+  <div class="cv-section">
+    <h2>Research Interests</h2>
+    <div class="pill-row">
+      <span class="pill">Solar flare effects on the ionosphere</span>
+      <span class="pill">SuperDARN HF radar</span>
+      <span class="pill">Geomagnetically induced currents</span>
+      <span class="pill">Submarine cable space weather</span>
+      <span class="pill">Solar eclipse ionospheric dynamics</span>
+      <span class="pill">Acoustic &amp; gravity waves (AGW/TID)</span>
+      <span class="pill">Machine learning for space weather</span>
+      <span class="pill">Radio wave propagation</span>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="cv-section">
+    <h2>Technical Skills</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.7rem;font-size:.87rem">
+      <div><strong>Languages</strong><p style="margin:2px 0">Python, R, MATLAB, Julia, C/C++, Java, SQL</p></div>
+      <div><strong>Data Science / ML</strong><p style="margin:2px 0">TensorFlow, scikit-learn, Pandas, NumPy, Dask</p></div>
+      <div><strong>Space Physics Models</strong><p style="margin:2px 0">SAMI3, WACCM-X, TIEGCM, IRI, pyDARN, SCUBAS</p></div>
+      <div><strong>Tools</strong><p style="margin:2px 0">Git, Docker, LaTeX, Flask, JavaScript, HPC/SLURM</p></div>
+    </div>
+  </div>
+
+  <!-- PUBLICATIONS SUMMARY -->
+  <div class="cv-section">
+    <h2>Publications Summary</h2>
+    <div class="stat-row">
+      <div class="stat-box"><div class="n">31</div><div class="lbl">Journal Articles</div></div>
+      <div class="stat-box"><div class="n">6</div><div class="lbl">Conf. Papers</div></div>
+      <div class="stat-box"><div class="n">3</div><div class="lbl">Invited Talks</div></div>
+      <div class="stat-box"><div class="n">250+</div><div class="lbl">Citations</div></div>
+    </div>
+    <div class="pub-mini"><strong class="me">Chakraborty, S.</strong> et al. (2025). G-condition following 2017 eclipse. <em>Earth &amp; Space Sci.</em>, 12, e2024EA004007.</div>
+    <div class="pub-mini">Boteler &amp; <strong class="me">Chakraborty, S.</strong> et al. (2024). Geomagnetic induction in submarine cables. <em>Space Weather</em>, 22, e2023SW003687.</div>
+    <div class="pub-mini"><strong class="me">Chakraborty, S.</strong> et al. (2022). Modeling geomagnetic induction in submarine cables. <em>Front. Phys.</em>, 10, 1022475.</div>
+    <div class="pub-mini"><strong class="me">Chakraborty, S.</strong> et al. (2022). Driving influences of the Doppler flash. <em>JGR: Space Physics</em>, 127, e2022JA030342.</div>
+    <div class="pub-mini"><strong class="me">Chakraborty, S.</strong> et al. (2021). Ionospheric sluggishness. <em>JGR: Space Physics</em>, 126, e2020JA028813.</div>
+    <div class="pub-mini"><strong class="me">Chakraborty, S.</strong> &amp; Morley (2020). Probabilistic Kp prediction. <em>J. Space Weather Space Climate</em>, 10, 36.</div>
+    <p style="font-size:.85rem;margin-top:.8rem"><a href="publications.html" style="color:var(--accent)">View full publication list (J1–J31) →</a></p>
+  </div>
+
+  <!-- PROFESSIONAL SERVICE -->
+  <div class="cv-section">
+    <h2>Professional Service</h2>
+    <div class="cv-entry"><div class="cv-date">2022</div><div class="cv-body"><h4>Primary Convener</h4><div class="cv-org">AGU Fall Meeting</div></div></div>
+    <div class="cv-entry"><div class="cv-date">Since 2021</div><div class="cv-body"><h4>OSPA Judge</h4><div class="cv-org">AGU Outstanding Student Presentation Awards</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2022, 2024</div><div class="cv-body"><h4>Judge</h4><div class="cv-org">CEDAR Workshop</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2023</div><div class="cv-body"><h4>Panel Reviewer</h4><div class="cv-org">NASA Research Program</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2024</div><div class="cv-body"><h4>Panel Reviewer</h4><div class="cv-org">NSF Research Program</div></div></div>
+    <div class="cv-entry"><div class="cv-date">2018</div><div class="cv-body"><h4>Mentor</h4><div class="cv-org">Google Summer of Code · Virginia Tech</div></div></div>
+    <div class="cv-entry"><div class="cv-date">Since 2021</div><div class="cv-body"><h4>Active Member</h4><div class="cv-org">SuperDARN Data Visualization Working Group</div></div></div>
+    <div class="cv-entry"><div class="cv-date">Since 2019</div><div class="cv-body"><h4>Peer Reviewer</h4><p>Nature Communications · JGR: Space Physics · Space Weather · Radio Science · Astrophysical Journal · Earth Planet and Science · IEEE TGRS · Advances in Space Research · EGU Sphere · Journal of Space Weather and Space Climate</p></div></div>
+  </div>
+
+  <!-- OUTREACH -->
+  <div class="cv-section">
+    <h2>Outreach &amp; Teaching</h2>
+    <div class="cv-entry"><div class="cv-date">Since 2021</div><div class="cv-body"><h4>Volunteer Faculty — Summer Pre-College Programs</h4><div class="cv-org">Center for the Enhancement of Engineering Diversity (CEED) · Virginia Tech</div><p>Imagination (rising 7th–8th graders) and Pathways for Future Engineers (first-generation rising 10th–12th graders)</p></div></div>
+    <div class="cv-entry"><div class="cv-date">Since 2021</div><div class="cv-body"><h4>Volunteer Faculty — Science &amp; Collaborative Talks</h4><div class="cv-org">CEED · Virginia Tech (freshmen orientation sessions)</div></div></div>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="cv-section">
+    <h2>References</h2>
+    <div class="ref-grid">
+      <div class="ref-card"><strong>Joseph B. H. Baker</strong><div class="ref-info">Professor, ECE Department<br>Virginia Tech · Blacksburg, VA<br><a href="mailto:bakerjb@vt.edu">bakerjb@vt.edu</a> · (540) 231-3355</div></div>
+      <div class="ref-card"><strong>J. Michael Ruohoniemi</strong><div class="ref-info">Professor, ECE Department<br>Virginia Tech · Blacksburg, VA<br><a href="mailto:mikeruo@vt.edu">mikeruo@vt.edu</a> · (540) 231-1482</div></div>
+      <div class="ref-card"><strong>David Boteler</strong><div class="ref-info">Scientist, LMS/HAOB/CHIS<br>Natural Resources Canada · Ottawa, ON<br><a href="mailto:david.boteler@NRCan-RNCan.gc.ca">david.boteler@NRCan</a> · (613) 837-2035</div></div>
+      <div class="ref-card"><strong>Liying Qian</strong><div class="ref-info">Project Scientist III<br>High Altitude Observatory, NCAR · Boulder, CO<br><a href="mailto:lqian@ucar.edu">lqian@ucar.edu</a> · (303) 497-1529</div></div>
+      <div class="ref-card"><strong>Michael Hartinger</strong><div class="ref-info">Research Scientist<br>Space Science Institute<br><a href="mailto:mhartinger@spacescience.org">mhartinger@spacescience.org</a></div></div>
+      <div class="ref-card"><strong>Aroh Barjatya</strong><div class="ref-info">Professor, Physical Sciences<br>Embry-Riddle Aeronautical University<br><a href="mailto:Aroh.Barjatya@erau.edu">Aroh.Barjatya@erau.edu</a></div></div>
+    </div>
+  </div>
+
+</div><!-- /page -->
+</div><!-- /main -->
+
+<script>document.querySelectorAll && document.querySelectorAll('.nav-link').forEach(l=>{if(l.href.includes('/cv.html'))l.classList.add('active')});</script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

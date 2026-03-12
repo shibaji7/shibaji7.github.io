@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Shibaji Chakraborty</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<script src="assets/js/nav.js"></script>
+
+<div id="main">
+<div class="page">
+
+  <div class="page-header">
+    <h1>Research Projects</h1>
+    <p class="subtitle">Active research programs, open-source tools, and data analytics initiatives</p>
+  </div>
+
+  <!-- Filter -->
+  <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:36px;">
+    <button class="btn btn-primary btn-sm" data-pub-filter="all">All Projects</button>
+    <button class="btn btn-outline btn-sm" data-pub-filter="space">Space Weather</button>
+    <button class="btn btn-outline btn-sm" data-pub-filter="tools">Open Source</button>
+    <button class="btn btn-outline btn-sm" data-pub-filter="ml">Data Science</button>
+    <button class="btn btn-outline btn-sm" data-pub-filter="eclipse">Eclipse</button>
+  </div>
+
+  <!-- Project Cards Grid -->
+  <div class="project-grid" data-reveal>
+
+    <div class="project-card" data-pub-cat="space eclipse">
+      <img src="assets/img/TSEGAE.png" alt="Solar Eclipse Study" class="project-card-img">
+      <div class="project-card-body">
+        <span class="project-tag">Eclipse</span>
+        <span class="project-tag" style="background:rgba(192,57,43,0.08);border-color:rgba(192,57,43,0.3);color:#c0392b;">NSF PI</span>
+        <h3 style="margin-top:10px;">Solar Eclipse Ionospheric Campaign</h3>
+        <p>Lead PI on NSF award #2412294 (2024–2027). Multi-eclipse comparison of 2017, 2023, and 2024 American eclipses using SuperDARN, GPS TEC, HamSCI citizen science, and WACCM-X simulations.</p>
+        <a href="research.html#eclipse" class="btn btn-outline btn-sm">View Research →</a>
+      </div>
+    </div>
+
+    <div class="project-card" data-pub-cat="space tools">
+      <img src="assets/img/submarine_cables.png" alt="SCUBAS Model" class="project-card-img">
+      <div class="project-card-body">
+        <span class="project-tag">Open Source</span>
+        <span class="project-tag" style="background:rgba(39,174,96,0.08);border-color:rgba(39,174,96,0.3);color:#1e8449;">NSF-GEM PI</span>
+        <h3 style="margin-top:10px;">SCUBAS — Submarine Cable Vulnerability Model</h3>
+        <p>Open-source Python model for estimating geomagnetically induced voltages in submarine fiber-optic cables. Uses thin-sheet EM analysis and transmission-line theory. NSF-GEM funded 2024–2027.</p>
+        <a href="https://github.com/shibaji7" target="_blank" class="btn btn-outline btn-sm">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card" data-pub-cat="space">
+      <img src="assets/img/SWF.png" alt="Solar Flare SWF Study" class="project-card-img">
+      <div class="project-card-body">
+        <span class="project-tag">Space Weather</span>
+        <span class="project-tag">SuperDARN</span>
+        <h3 style="margin-top:10px;">Solar Flare Impacts on HF Radio</h3>
+        <p>Characterization of Shortwave Fadeout (SWF), the Doppler Flash precursor, and ionospheric sluggishness using SuperDARN radar networks. 6 first-author publications.</p>
+        <a href="research.html" class="btn btn-outline btn-sm">View Research →</a>
+      </div>
+    </div>
+
+    <div class="project-card" data-pub-cat="ml">
+      <img src="assets/img/2LayerModel.png" alt="ML Storm Forecast" class="project-card-img">
+      <div class="project-card-body">
+        <span class="project-tag">Machine Learning</span>
+        <span class="project-tag">Forecasting</span>
+        <h3 style="margin-top:10px;">Probabilistic Geomagnetic Storm Forecasting</h3>
+        <p>Two-layer neural network architecture for Kp-index prediction with 3-hour lead time. Incorporates solar wind + X-ray flux. Outputs probability distributions with uncertainty bounds.</p>
+        <a href="research.html" class="btn btn-outline btn-sm">View Research →</a>
+      </div>
+    </div>
+
+    <div class="project-card" data-pub-cat="space">
+      <img src="assets/img/AGW-SuperDARN.png" alt="AGW TID Study" class="project-card-img">
+      <div class="project-card-body">
+        <span class="project-tag">NASA LWS</span>
+        <span class="project-tag">AGW/TID</span>
+        <h3 style="margin-top:10px;">Atmospheric Gravity Waves &amp; TIDs</h3>
+        <p>Co-I on NASA LWS award. Multipoint characterization of TIDs using SuperDARN, GPS, ionosondes. PHaRLAP 3D raytracing to quantify MUF changes. Thunderstorm-ionosphere coupling.</p>
+        <a href="research.html" class="btn btn-outline btn-sm">View Research →</a>
+      </div>
+    </div>
+
+    <div class="project-card" data-pub-cat="space tools">
+      <img src="assets/img/GMD.png" alt="GMD Study" class="project-card-img">
+      <div class="project-card-body">
+        <span class="project-tag">Infrastructure</span>
+        <span class="project-tag">GIC</span>
+        <h3 style="margin-top:10px;">Geomagnetic Disturbance Infrastructure Risk</h3>
+        <p>Modeling geomagnetically induced currents in power grids and submarine cables during extreme geomagnetic storms. Risk mapping, operational threshold analysis, real-time tools in development.</p>
+        <a href="research.html" class="btn btn-outline btn-sm">View Research →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <!-- Open Source Tools -->
+  <div data-reveal>
+    <div class="section-label">Open Source Tools</div>
+
+    <div style="display:flex; flex-direction:column; gap:16px;">
+
+      <div style="display:grid; grid-template-columns:60px 1fr; gap:20px; padding:20px; border:1px solid var(--border); border-radius:var(--radius); align-items:start;">
+        <div style="font-size:2rem; text-align:center; padding-top:4px;">🌊</div>
+        <div>
+          <h4 style="margin-bottom:4px;">SCUBAS — Submarine Cable Upset By Auroral Streams</h4>
+          <p style="font-size:0.85rem; margin-bottom:8px;">
+            Python library for estimating geoelectric fields and induced voltages in submarine fiber-optic cables during geomagnetic disturbances. Implements thin-sheet electromagnetic analysis and cable transmission-line models.
+          </p>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="badge badge-blue">Python</span>
+            <span class="badge">Open Source</span>
+            <span class="badge">Space Weather</span>
+            <a href="https://github.com/shibaji7" target="_blank" class="btn btn-outline btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:60px 1fr; gap:20px; padding:20px; border:1px solid var(--border); border-radius:var(--radius); align-items:start;">
+        <div style="font-size:2rem; text-align:center; padding-top:4px;">📡</div>
+        <div>
+          <h4 style="margin-bottom:4px;">pyDARN — SuperDARN Python Visualization</h4>
+          <p style="font-size:0.85rem; margin-bottom:8px;">
+            Co-author and contributor to pyDARN, the official Python visualization library for the SuperDARN HF radar network. Provides range-time plots, fan plots, and convection maps from SuperDARN data files.
+          </p>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="badge badge-blue">Python</span>
+            <span class="badge">Open Source</span>
+            <span class="badge">SuperDARN</span>
+            <a href="https://github.com/SuperDARN/pydarn" target="_blank" class="btn btn-outline btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:60px 1fr; gap:20px; padding:20px; border:1px solid var(--border); border-radius:var(--radius); align-items:start;">
+        <div style="font-size:2rem; text-align:center; padding-top:4px;">☀️</div>
+        <div>
+          <h4 style="margin-bottom:4px;">SWF Monitoring &amp; Analysis Toolkit</h4>
+          <p style="font-size:0.85rem; margin-bottom:8px;">
+            Python toolkit for detecting, characterizing, and modeling shortwave fadeout events from SuperDARN data. Integrates with GOES X-ray observations and the NCAR D-region absorption model for quantitative comparison.
+          </p>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <span class="badge badge-blue">Python</span>
+            <span class="badge">Space Weather</span>
+            <span class="badge">Analysis</span>
+            <a href="https://github.com/shibaji7" target="_blank" class="btn btn-outline btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Planned / Expanding -->
+  <div data-reveal>
+    <div class="section-label">Expanding Beyond Space Physics</div>
+    <p>
+      My data science and analytical methodology — probabilistic forecasting, time series analysis,
+      anomaly detection, complex network analysis — are directly applicable across domains.
+      Planned projects include:
+    </p>
+    <ul style="font-size:0.925rem; color:var(--text-mid); line-height:1.9;">
+      <li><strong>Climate variability analytics:</strong> Applying spectral analysis and statistical forecasting tools developed for space weather to seasonal climate variability and extreme event prediction.</li>
+      <li><strong>Financial time series:</strong> Studying long-range correlations and turbulence analogies in financial market data using methods from plasma physics (structure functions, multi-scale wavelet decomposition).</li>
+      <li><strong>Biological complexity:</strong> Network-theoretic analysis of complex biological systems — from neural connectivity to ecosystem trophic networks — using graph-based anomaly detection.</li>
+    </ul>
+    <p style="margin-top:16px;">
+      <a href="blog.html" class="btn btn-outline btn-sm">Read my writing on complex systems →</a>
+    </p>
+  </div>
+
+</div><!-- /page -->
+
+<footer style="border-top:1px solid var(--border); padding:24px 48px; font-size:0.8rem; color:var(--text-muted); display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+  <span>© <span id="year"></span> Shibaji Chakraborty</span>
+  <a href="https://github.com/shibaji7" target="_blank" style="color:var(--accent);">GitHub: shibaji7 →</a>
+</footer>
+</div>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
