@@ -20,6 +20,15 @@
     .fig-wrap img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); }
     .fig-cap { font-size: .78rem; color: var(--text-muted); margin-top: 8px; line-height: 1.5; }
     .fig-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin: 28px 0; }
+    @media(max-width:640px){
+      .proj-hero{padding:32px 0 28px}
+      .proj-body{padding:32px 5% 48px}
+      .proj-body h2{font-size:1.15rem}
+    }
+    @media(max-width:480px){
+      .proj-hero{padding:24px 0 20px}
+      .proj-hero-inner,.proj-body{padding-left:16px;padding-right:16px}
+    }
     @media(max-width:600px){ .fig-row { grid-template-columns: 1fr; } }
     .pub-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
     .pub-chip { font-size: .75rem; padding: 3px 10px; border: 1px solid var(--border); border-radius: 20px; color: var(--accent); text-decoration: none; }

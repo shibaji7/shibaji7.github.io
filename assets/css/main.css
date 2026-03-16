@@ -890,6 +890,45 @@ hr {
 
 .print-note { font-size: 0.8rem; color: var(--text-muted); }
 
+/* ---------- Responsive utility classes ---------- */
+
+/* Scrollable table wrapper — prevents table overflow on mobile */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.table-wrap .course-table { margin-bottom: 0; border: none; }
+
+/* Responsive grids */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.cols-2-resp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* Responsive footer */
+.page-footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 48px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 900px) {
   #sidebar {
@@ -917,12 +956,31 @@ hr {
   .figure-row.cols-2, .figure-row.cols-3 { grid-template-columns: 1fr; }
   .cv-entry { grid-template-columns: 80px 1fr; }
   .print-btn-bar { padding: 10px 24px; }
+  .info-grid { grid-template-columns: repeat(2, 1fr); }
+  .page-footer { padding: 20px 24px; }
 }
 
 @media (max-width: 640px) {
   .pub-item { grid-template-columns: 1fr; }
   .pub-num { display: none; }
-  .news-item { grid-template-columns: 70px 1fr; gap: 10px; }
+  .news-item { grid-template-columns: 1fr; gap: 2px; }
+  .news-date { font-size: 0.72rem; color: var(--accent); font-weight: 600; }
+  .cols-2-resp { grid-template-columns: 1fr; }
+  .info-grid { grid-template-columns: 1fr 1fr; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.25rem; }
+}
+
+@media (max-width: 480px) {
+  .page, .page-wide { padding: 24px 16px 48px; }
+  .page-footer { padding: 16px; }
+  .info-grid { grid-template-columns: 1fr; }
+  .cv-entry { grid-template-columns: 1fr; gap: 2px; }
+  .cv-date { font-size: 0.72rem; color: var(--accent); font-weight: 600; }
+  h1 { font-size: 1.5rem; }
+  .about-text h1 { font-size: 1.4rem; }
+  .print-btn-bar { padding: 10px 16px; flex-wrap: wrap; }
+  .sidebar-photo { width: 80px; height: 80px; }
 }
 
 /* ---------- Print styles ---------- */
