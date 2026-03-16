@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5,000 Years of War & Trade — Civilizations Data Analysis</title>
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    .post-hero { padding: 60px 5% 56px; background: var(--bg-alt); border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+    .post-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 20% 60%, rgba(240,180,40,0.06) 0%, transparent 65%), radial-gradient(ellipse at 80% 30%, rgba(26,82,118,0.07) 0%, transparent 60%); }
+    .post-hero-inner { max-width: 820px; margin: 0 auto; position: relative; z-index: 1; }
+    .post-body { max-width: 820px; margin: 0 auto; padding: 52px 5% 60px; }
+    .post-body h2 { font-size: 1.4rem; margin: 48px 0 14px; color: var(--heading, #1a2332); border-bottom: 2px solid var(--accent); padding-bottom: 6px; }
+    .post-body h3 { font-size: 1.1rem; margin: 28px 0 10px; color: var(--accent); }
+    .post-body p { font-family: 'Merriweather', Georgia, serif; font-size: 1rem; line-height: 1.95; color: var(--text-mid); margin-bottom: 22px; }
+    .post-body ul, .post-body ol { font-family: 'Merriweather', Georgia, serif; font-size: 1rem; line-height: 1.95; color: var(--text-mid); margin: 0 0 22px 1.6rem; }
+    .post-body li { margin-bottom: 8px; }
+    .post-body strong { color: var(--text); }
+    .post-body blockquote { border-left: 3px solid var(--accent); margin: 28px 0; padding: 14px 24px; background: var(--bg-alt); font-style: italic; color: var(--text-mid); font-family: 'Merriweather', serif; font-size: .94rem; line-height: 1.8; border-radius: 0 var(--radius) var(--radius) 0; }
+    .fig-wrap { margin: 36px 0; }
+    .fig-wrap img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow-md); display: block; }
+    .fig-cap { font-size: 0.8rem; color: var(--text-muted); text-align: center; margin-top: 10px; font-style: italic; padding: 0 12px; }
+    .stat-row { display: flex; flex-wrap: wrap; gap: 14px; margin: 28px 0; }
+    .stat-pill { background: var(--bg-card); border: 1px solid var(--border); border-radius: 40px; padding: 8px 20px; font-size: 0.85rem; color: var(--text-mid); }
+    .stat-pill strong { color: var(--accent); }
+    .insight-box { background: var(--bg-card); border-left: 3px solid var(--accent); border-radius: 0 var(--radius) var(--radius) 0; padding: 16px 20px; margin: 28px 0; }
+    .insight-box h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 8px; }
+    .insight-box p { font-family: var(--font-sans); font-size: 0.9rem; margin: 0; line-height: 1.7; color: var(--text-mid); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin: 24px 0; }
+    .data-table th { background: var(--accent); color: #fff; padding: 9px 12px; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; }
+    .data-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); color: var(--text-mid); vertical-align: top; }
+    .data-table tr:hover td { background: var(--bg-alt); }
+    .data-table .yr { color: var(--accent); font-weight: 700; font-family: monospace; }
+    .post-footer-nav { max-width: 820px; margin: 0 auto; padding: 40px 5% 60px; display: flex; justify-content: space-between; border-top: 1px solid var(--border); gap: 20px; }
+    .tag { display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 3px 9px; border-radius: 3px; margin-right: 6px; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .tag-hist  { background: rgba(240,180,40,0.12); color: #c8960a; border: 1px solid rgba(240,180,40,0.3); }
+    .tag-data  { background: rgba(26,82,118,0.1);   color: var(--accent); border: 1px solid rgba(26,82,118,0.3); }
+    .tag-geo   { background: rgba(39,174,96,0.1);   color: #1e8449; border: 1px solid rgba(39,174,96,0.3); }
+    @media(max-width:640px){
+      .post-hero{padding:36px 5% 32px}
+      .post-body{padding:32px 5% 48px}
+      .post-body h2{font-size:1.2rem}
+      .post-body p,.post-body ul{font-size:.95rem}
+      .post-footer-nav{flex-direction:column;gap:12px;padding:32px 5% 48px}
+      .stat-row{gap:8px}
+    }
+    @media(max-width:480px){
+      .post-hero{padding:28px 16px 24px}
+      .post-body{padding:24px 16px 40px}
+      .post-footer-nav{padding:24px 16px 40px}
+    }
+  </style>
+</head>
+<body>
+<script src="../assets/js/nav-sub.js"></script>
+
+<div id="main">
+
+<div class="post-hero">
+  <div class="post-hero-inner">
+    <div style="margin-bottom:12px;">
+      <span class="tag tag-hist">History</span>
+      <span class="tag tag-data">Data Analysis</span>
+      <span class="tag tag-geo">Geospatial</span>
+    </div>
+    <h1 style="font-size:2rem; margin-bottom:10px; line-height:1.25;">5,000 Years of War &amp; Trade</h1>
+    <p style="font-size:1.1rem; color:var(--text-muted); margin-bottom:18px; font-family:'Merriweather',serif; font-style:italic;">
+      Curating the <em>Civilizations Explorer</em> dataset — battles, empires, trade routes, and thinkers — and asking: what patterns emerge when you plot 5,000 years of human history on a map?
+    </p>
+    <div style="font-size:0.82rem; color:var(--text-muted);">
+      Shibaji Chakraborty &nbsp;·&nbsp; March 2026 &nbsp;·&nbsp; 12 min read
+    </div>
+  </div>
+</div>
+
+<article class="post-body">
+
+  <p>
+    A few weeks ago, I came across a remarkable open dataset — the <strong>Civilizations Explorer</strong> — that compiles structured records of ancient battles, empires, trade routes, thinkers, and wonders from over 5,000 years of human history. All data is sourced from Wikipedia (CC BY-SA 4.0), Wikidata (CC0), and the Pleiades Project (CC BY 3.0). As a scientist who spends most of my time thinking about electromagnetic waves and geomagnetic storms, I found myself unexpectedly fascinated by the question: <em>can the same data-driven instincts I bring to space weather help reveal patterns in human history?</em>
+  </p>
+  <p>
+    This post curates those datasets, runs a geospatial and temporal analysis, and produces visualizations of how battles, empires, and trade routes interacted across centuries. The central question: <strong>did battles cluster near trade routes, and did military outcomes reshape the geography of commerce?</strong>
+  </p>
+
+  <div class="stat-row">
+    <div class="stat-pill">⚔️ <strong>15</strong> Battles</div>
+    <div class="stat-pill">🗺️ <strong>15</strong> Empires</div>
+    <div class="stat-pill">🧠 <strong>17</strong> Thinkers</div>
+    <div class="stat-pill">🛤️ <strong>6</strong> Trade Routes</div>
+    <div class="stat-pill">🏛️ <strong>16</strong> Wonders &amp; Sites</div>
+    <div class="stat-pill">📅 <strong>5,000+</strong> years of history</div>
+  </div>
+
+  <h2>Figure 1 — The Geography of Ancient War and Commerce</h2>
+
+  <p>
+    The first visualization plots all 15 battles as colored markers on a simplified map of the ancient world, overlaid with the six major trade routes. Each battle marker is colored by the victor's civilization. The dashed lines trace the approximate paths of the Silk Road, Mediterranean Sea Routes, Indian Ocean Network, Amber Road, Incense Route, and Persian Royal Road.
+  </p>
+
+  <div class="fig-wrap">
+    <img src="../assets/img/fig1_battles_trade_routes.png"
+         alt="Geospatial map of ancient battles and trade routes">
+    <div class="fig-cap"><strong>Figure 1.</strong> Geospatial distribution of 15 decisive ancient battles (colored by victor civilization) overlaid on the six major ancient trade routes. Note the concentration of battles in the Eastern Mediterranean and Near East — precisely where multiple trade routes converged.</div>
+  </div>
+
+  <p>
+    The most immediate observation is the <strong>concentration of conflict in the Eastern Mediterranean and Near East</strong>. Of the 15 battles, 9 occurred within roughly 20° of longitude of the Eastern Mediterranean coast — the region where the Silk Road's western terminus, the Mediterranean Sea Routes, and the Incense Route all converged. This is not coincidence.
+  </p>
+
+  <div class="insight-box">
+    <h4>Key Insight</h4>
+    <p>The Eastern Mediterranean was the ancient world's single most economically valuable geography — whoever controlled it controlled the flow of goods between Europe, Africa, and Asia. The Persian Wars (490–479 BC), Alexander's campaigns (331–326 BC), the Punic Wars (218–202 BC), and the Battle of Actium (31 BC) were all, at some level, contests for this chokepoint.</p>
+  </div>
+
+  <p>
+    The outlier battles — Changping (−260 BC, China) and Kalinga (−261 BC, India) — fall far to the east, in regions the western trade routes had not yet reached. Notably, both battles produced long-term consequences for the Silk Road: the Qin victory at Changping led to Chinese unification, which eventually created the political stability that made the Silk Road possible, while Ashoka's conversion after Kalinga made India a hospitable transit zone for Buddhist merchants traveling the same route.
+  </p>
+
+  <h2>Figure 2 — Timeline: 1,500 Years of Decisive Battles</h2>
+
+  <p>
+    Reading a table of battles chronologically tells you the sequence. Visualizing them as a timeline reveals the <em>clustering</em> — the moments when history was being written at an unusually high tempo.
+  </p>
+
+  <div class="fig-wrap">
+    <img src="../assets/img/fig2_battle_timeline.png"
+         alt="Timeline of 15 decisive ancient battles colored by victor civilization">
+    <div class="fig-cap"><strong>Figure 2.</strong> Timeline of 15 decisive battles from 1457 BC to 9 AD. Shaded bands mark major conflict eras: the Persian Wars (490–479 BC), Alexander's campaigns (336–323 BC), and the Punic Wars era (~264–146 BC). Markers are colored by victor civilization.</div>
+  </div>
+
+  <p>
+    Three battle clusters stand out:
+  </p>
+  <ol>
+    <li><strong>The Persian Wars (490–479 BC)</strong> — Marathon, Thermopylae, Salamis, and Plataea in rapid succession. Greece's survival in this decade preserved the intellectual conditions for Socrates, Plato, and Aristotle — who appear in our thinkers dataset just one generation later.</li>
+    <li><strong>Alexander's Decade (336–323 BC)</strong> — Gaugamela (331 BC) and the Hydaspes (326 BC) bookend the fastest imperial expansion in ancient history. Alexander's campaigns physically <em>connected</em> the Silk Road's western and eastern sections for the first time, dramatically accelerating the diffusion of Greek science, mathematics, and culture eastward.</li>
+    <li><strong>The Punic Wars Era (~264–146 BC)</strong> — Cannae (216 BC), Raphia (217 BC), and Zama (202 BC) all fall within this turbulent century. Rome's eventual dominance after Zama secured Mediterranean trade routes under a single administrative power for the next 600 years — the longest period of relative maritime trade stability the ancient world ever experienced.</li>
+  </ol>
+
+  <h2>Figure 3 — How Long Did Empires Last?</h2>
+
+  <p>
+    Before examining the trade-route disruption question directly, it helps to understand the timescale of imperial power. The dataset spans empires ranging from 13 years (Macedonian Empire) to 3,070 years (Ancient Egypt).
+  </p>
+
+  <div class="fig-wrap">
+    <img src="../assets/img/fig3_empire_durations.png"
+         alt="Horizontal bar chart of empire durations sorted by longevity">
+    <div class="fig-cap"><strong>Figure 3.</strong> Duration of 15 ancient empires and civilizations, sorted by longevity. The dashed line marks the median duration (~230 years — roughly the current age of the United States). Color indicates geographic region.</div>
+  </div>
+
+  <p>
+    The median empire duration is approximately <strong>230 years</strong>. The outliers are instructive:
+  </p>
+  <ul>
+    <li><strong>Byzantine Empire (1,123 years)</strong> — survived by institutionalizing Roman law, Greek language, and Orthodox Christianity simultaneously.</li>
+    <li><strong>Ancient Egypt (3,070 years)</strong> — geographic isolation (the Nile valley is a natural fortress), agricultural surplus, and divine kingship ideology that gave every pharaoh supernatural legitimacy.</li>
+    <li><strong>Macedonian Empire (13 years)</strong> and <strong>Qin Dynasty (15 years)</strong> — empires of pure conquest. Both collapsed the moment their founding conqueror died, because neither had built administrative institutions deeper than the personality of one man.</li>
+  </ul>
+
+  <blockquote>
+    "The lesson of empire longevity is boring: institutions beat armies. The empires that outlasted everyone else were the ones that wrote things down, systematized law, and gave people a reason to identify with the state beyond fear of the current ruler."
+  </blockquote>
+
+  <h2>Figure 4 — Battle Proximity to Trade Routes</h2>
+
+  <p>
+    To quantify the relationship between battles and trade routes, I computed the approximate geographic proximity (in degrees of latitude/longitude, roughly proportional to distance) between each battle location and each trade route. The heatmap below shows which battles were within approximately 900 km of each route — the distance within which a major battle could realistically disrupt trade flows.
+  </p>
+
+  <div class="fig-wrap">
+    <img src="../assets/img/fig4_battle_route_proximity.png"
+         alt="Heatmap of battle proximity to ancient trade routes">
+    <div class="fig-cap"><strong>Figure 4.</strong> Battle proximity to the six ancient trade routes. HIGH = battle location within ~900 km of the route (capable of disrupting trade). The Mediterranean Sea Routes and Silk Road show the most battle exposure — consistent with their economic importance as targets of military contestation.</div>
+  </div>
+
+  <p>
+    The Mediterranean Sea Routes show the highest battle exposure — nearly every battle in the dataset falls within disruption range. This makes sense: the route is short (Carthage to Rome is roughly 400 km of open sea) and passed through politically contested territory at almost every waypoint.
+  </p>
+  <p>
+    The <strong>Silk Road's</strong> exposure pattern is particularly interesting. Gaugamela (331 BC) and the Hydaspes (326 BC) both score HIGH proximity — these were Alexander's battles, fought precisely to control the Silk Road's central section. Actium (31 BC) scores MEDIUM: the battle itself was in Greece, but its outcome — Octavian's consolidation of Egypt — secured the Red Sea gateway to the Indian Ocean Network, the Silk Road's southern branch.
+  </p>
+  <p>
+    The <strong>Royal Road (Persia)</strong> shows concentrated exposure to Gaugamela and Kadesh, both located directly on or adjacent to the road itself. The Royal Road was not just a trade artery — it was a military logistics network, and its control was the explicit objective of the Persian Wars from both sides.
+  </p>
+
+  <div class="insight-box">
+    <h4>Trade Route Resilience</h4>
+    <p>Despite constant nearby warfare, the Silk Road operated for nearly 1,600 years. Trade routes appear to be far more resilient than the empires that nominally controlled them — goods continued to flow even when political authority changed hands, because the economic incentive to trade outlasted any particular military or political disruption.</p>
+  </div>
+
+  <h2>Figure 5 — The Axial Age: Simultaneous Intellectual Flowering</h2>
+
+  <p>
+    One of the most striking cross-dataset findings is a phenomenon the philosopher Karl Jaspers (1949) called the <strong>Axial Age</strong>: the period 600–400 BC during which, apparently without any contact between them, Greece, China, India, and Persia all produced transformative intellectual figures simultaneously.
+  </p>
+
+  <div class="fig-wrap">
+    <img src="../assets/img/fig5_axial_age.png"
+         alt="Timeline of ancient thinkers showing the Axial Age clustering">
+    <div class="fig-cap"><strong>Figure 5.</strong> Temporal distribution of 17 ancient thinkers across civilizations. The shaded band marks the Axial Age (600–400 BC). Five independent civilizations — Greece, China, India, Persia, and Rome — produced their defining philosophical figures in near-parallel, apparently without direct contact.</div>
+  </div>
+
+  <p>
+    In the shaded Axial Age band, we see:
+  </p>
+  <ul>
+    <li><strong>Greece</strong>: Pythagoras, Socrates, Hippocrates, Democritus</li>
+    <li><strong>China</strong>: Laozi, Confucius, Sun Tzu</li>
+    <li><strong>India</strong>: The Buddha (not in this dataset but contemporaneous with Chanakya's lineage)</li>
+    <li><strong>Persia</strong>: Zoroaster (late dating places him here)</li>
+  </ul>
+  <p>
+    The most plausible explanation is structural: all five regions were simultaneously experiencing <strong>iron-age economic disruption</strong>, the stress of emerging state formation, and the collapse of older Bronze Age religious authority. When traditional answers stop working, societies generate new thinkers who ask new questions. <em>Political crisis produces intellectual innovation</em> — a pattern that appears repeatedly in every dataset studied here.
+  </p>
+
+  <h2>Key Findings</h2>
+
+  <div class="insight-box">
+    <h4>1. Battles clustered where trade routes converged</h4>
+    <p>The Eastern Mediterranean — where Silk Road, Mediterranean Sea Routes, and Incense Route intersected — was the most fought-over geography in the ancient world. 9 of 15 battles occurred within this zone.</p>
+  </div>
+  <div class="insight-box">
+    <h4>2. Military outcomes reshaped trade geography</h4>
+    <p>Alexander's victories (Gaugamela, Hydaspes) physically connected the Silk Road for the first time. Rome's victory at Zama secured the Mediterranean for 600 years. Individual battles had multi-century trade consequences.</p>
+  </div>
+  <div class="insight-box">
+    <h4>3. Trade routes outlasted every empire that fought over them</h4>
+    <p>The Silk Road (1,580 years), Indian Ocean Network (1,550 years), and Mediterranean routes (1,300 years) all outlasted every empire in the dataset. Trade is more durable than conquest.</p>
+  </div>
+  <div class="insight-box">
+    <h4>4. Institutions determine longevity; conquest determines reach</h4>
+    <p>The shortest empires (Macedonian: 13 yrs, Qin: 15 yrs) had the fastest expansions. The longest (Byzantine: 1,123 yrs, Egypt: 3,070 yrs) had the deepest administrative roots.</p>
+  </div>
+  <div class="insight-box">
+    <h4>5. The Axial Age was structurally driven, not accidental</h4>
+    <p>Five disconnected civilizations produced their defining thinkers in the same 200-year window, all under similar pressures of state formation and economic disruption. Intellectual revolutions follow social stress.</p>
+  </div>
+
+  <h2>Data &amp; Reproducibility</h2>
+
+  <p>
+    All figures were generated using Python (matplotlib) from the structured datasets in the Civilizations Explorer. The underlying data is fully open-licensed:
+  </p>
+  <div class="table-wrap" style="overflow-x:auto; border:1px solid var(--border); border-radius:var(--radius); margin:20px 0;">
+    <table class="data-table">
+      <thead><tr><th>Source</th><th>License</th><th>Data Used</th></tr></thead>
+      <tbody>
+        <tr><td>Wikipedia</td><td>CC BY-SA 4.0</td><td>Battle names, years, locations, outcomes; empire dates; thinker biographies; wonder status</td></tr>
+        <tr><td>Wikidata</td><td>CC0 (Public Domain)</td><td>Structured entity dates and coordinates via SPARQL</td></tr>
+        <tr><td>Pleiades Project</td><td>CC BY 3.0</td><td>Latitude/longitude for ancient place names</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    Only structured facts (names, dates, coordinates, classifications) were extracted. No article prose was reproduced. Every coordinate used in the geospatial figures is an approximation based on modern equivalents of ancient place names, cross-referenced with Pleiades Project records.
+  </p>
+
+</article>
+
+<div class="post-footer-nav">
+  <a href="../blog.html" style="color:var(--accent);">← All Posts</a>
+  <a href="solar-burps.html" style="color:var(--accent);">Solar Burps →</a>
+</div>
+
+</div><!-- /main -->
+
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
